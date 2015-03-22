@@ -1,9 +1,13 @@
 //This class represents a mover for the Ball
 class Mover {
   
-  //Mover attributes:
+//Mover attributes:
+  //Ball attributes:
   PVector location;
   PVector velocity;
+  int sphereRadius;
+  
+  //Forces & parameters:
   PVector gravity;
   PVector friction;
   PVector totalForce;
@@ -12,23 +16,33 @@ class Mover {
   float mu;
   float frictionMagnitude;
   float elasticity;
-  int sphereRadius;
   
   //Constructor for a new Mover
-  Mover(int sphereRadius) {
-    location = new PVector(0, 0, 0);
+  Mover(int boxDepth, int sphereRadius) {
+    location = new PVector(0, -(boxDepth/2 + sphereRadius), 0);
     velocity = new PVector(0, 0, 0);
+    this.sphereRadius = sphereRadius;
     gravity = new PVector(0, 0, 0);
     totalForce = new PVector(0, 0, 0);
     normalForce = 1;
     mu = 0.01;
     frictionMagnitude = normalForce * mu;
     elasticity = 0.8;
-    this.sphereRadius = sphereRadius;
   }
 
+//Getter for x coordinate
+float getX() {
+  return location.x;
+}
+
+//Getter for z coordinate
+float getZ() {
+  return location.z;
+}
+
 //Update the velocity & location according to the total force exerted on the ball
-void update() {
+void update(float x, float z) {
+  updateForces(x, z);
   velocity.add(totalForce);
   location.add(velocity);
 }
@@ -48,17 +62,17 @@ void updateForces(float x, float z) {
 //Display the ball on the plate
 void display() {
   pushMatrix();
-  stroke(0);
-  strokeWeight(3);
+  noStroke();
+  fill(139, 10, 80);
   sphere(sphereRadius);
   popMatrix();
 }
 
-//Check if the ball is on the edges of the plate and update its coordinates/velocity accordingly
+//Check if the ball is on the edges of the plate
 void checkEdges(int boxLength) {
   if (location.x >= (boxLength/2.0)) {
     velocity.x = velocity.x * -elasticity;
-    location.x = (boxLength/2.0);
+    location.x = (boxLength / 2.0);
   }
   else if (location.x <= - (boxLength / 2.0)) {
     velocity.x = velocity.x * (- elasticity);
@@ -75,29 +89,26 @@ void checkEdges(int boxLength) {
 }
 
 //Check if the ball hits a cylinder
-void checkCylinderCollision(ArrayList<PVector> a, int cylinderBaseSize) {
+void checkCylinderCollision(ArrayList<PVector> a, int cylinderBaseSize, int boxDepth) {
   for(PVector c : a) {
-      if(location.dist(c) <= sphereRadius + cylinderBaseSize) {
-        PVector newLocation = new PVector(location.x, location.z, -(boxDepth/2 + sphereRadius));
-        PVector normal = c.get();
-        normal.sub(newLocation);
+      //Create a new cylinder vector adapted to the location
+      PVector correctedC = new PVector(c.x, location.y, c.y);
+      if(correctedC.dist(location) <= (sphereRadius + cylinderBaseSize)) {
+        //Compute the normal vector
+        PVector normal = correctedC.get();
+        normal.sub(location);
         normal.normalize();
-        PVector replace = normal.get();
-        replace.mult(sphereRadius + cylinderBaseSize);
-        newLocation = PVector.add(c, replace); //to avoid enter the cylinder
+        //Compute the new correct location
+        PVector updatedLocation = normal.get();
+        updatedLocation.mult(-(cylinderBaseSize + sphereRadius));
+        updatedLocation.add(correctedC);
+        location = new PVector(updatedLocation.x, -(boxDepth / 2 + sphereRadius), updatedLocation.z); //to avoid enter the cylinder we update the location
+        //Update the velocity
         normal.mult(2 * velocity.dot(normal));
         velocity.sub(normal);
+        velocity.mult(elasticity);
       }
   }
-}
-
-//Getters for x & z coordinates
-float getX() {
-  return location.x;
-}
-
-float getZ() {
-  return location.z;
 }
 
 }
