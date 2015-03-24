@@ -1,8 +1,8 @@
 //Note: We decided to make many variables in order to modify the code more easily
 
 //parameters for the plate
-int boxLength = 500;
-int boxDepth = 10;
+int boxLength = 300;
+int boxDepth = 5;
 
 //axis angles (X, Y, Z)
 float rx = 0.0;
@@ -15,7 +15,7 @@ float currentY;
 
 //mover for the ball
 Mover mover;
-int sphereRadius = 15;
+int sphereRadius = 10;
 
 //cylinderMode parameters
 boolean cylinderMode = false;
@@ -23,17 +23,24 @@ boolean isClicked = false;
 ArrayList<PVector> cylinders;
 Cylinder c; //"model" for the cylinder to avoid reconstruction (retained-style)
 
+//Data visualization surfaces
+PGraphics dataBackGround;
+
 void setup() {
-  size(800, 800, P3D);
+  size(600, 600, P3D);
   stroke(0);
   mover = new Mover(boxDepth, sphereRadius);
-  c = new Cylinder(50, 50, 40);
+  c = new Cylinder(25, 25, 40);
   cylinders = new ArrayList();
+  dataBackGround = createGraphics(600, 100, P2D);
 }
 
 void draw() {
   lights();
   background(141, 182, 205);
+  fill(255, 250, 205);
+  drawBackGround();
+  image(dataBackGround, 0, 500);
   fill(0, 100, 0);
   translate(width/2, height/2, 0);
   
@@ -149,4 +156,10 @@ void mouseWheel(MouseEvent event) {
 //Set the boolean indicator isClicked to true when a click occurs
 void mouseClicked() {
   isClicked = true;
+}
+
+void drawBackGround() {
+  dataBackGround.beginDraw();
+  dataBackGround.background(255, 250, 205);
+  dataBackGround.endDraw();
 }
