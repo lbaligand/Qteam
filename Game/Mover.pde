@@ -11,11 +11,15 @@ class Mover {
   PVector gravity;
   PVector friction;
   PVector totalForce;
-  float g = 0.981;
+  float g = 0.581;
   float normalForce;
   float mu;
   float frictionMagnitude;
   float elasticity;
+  
+  //Score parameters:
+  float score;
+  float lastScore;
   
   //Constructor for a new Mover
   Mover(int boxDepth, int sphereRadius) {
@@ -28,6 +32,8 @@ class Mover {
     mu = 0.01;
     frictionMagnitude = normalForce * mu;
     elasticity = 0.8;
+    score = 0.0;
+    lastScore = 0.0;
   }
 
 //Getter for x coordinate
@@ -38,6 +44,31 @@ float getX() {
 //Getter for z coordinate
 float getZ() {
   return location.z;
+}
+
+//Getter for X velocity
+float getVelocityX() {
+  return velocity.x;
+}
+
+//Getter for Z velocity
+float getVelocityZ() {
+  return velocity.z;
+}
+
+//Getter for the velocity magnitude
+float getVelocityMagnitude() {
+  return velocity.mag();
+}
+
+//Getter for current total score
+float getScore() {
+  return score;
+}
+
+//Getter for last score (last hitting event)
+float getLastScore() {
+  return lastScore;
 }
 
 //Update the velocity & location according to the total force exerted on the ball
@@ -71,18 +102,38 @@ void display() {
 //Check if the ball is on the edges of the plate
 void checkEdges(int boxLength) {
   if (location.x >= (boxLength/2.0)) {
+    lastScore = - velocity.mag();
+    score -= velocity.mag();
+    if(score < 0.0) {
+      score = 0.0;
+    }
     velocity.x = velocity.x * -elasticity;
     location.x = (boxLength / 2.0);
   }
   else if (location.x <= - (boxLength / 2.0)) {
+    lastScore = - velocity.mag();
+    score -= velocity.mag();
+    if(score < 0.0) {
+      score = 0.0;
+    }
     velocity.x = velocity.x * (- elasticity);
     location.x = - (boxLength / 2.0);
   }
   if (location.z >= (boxLength / 2.0)) {
+    lastScore = - velocity.mag();
+    score -= velocity.mag();
+    if(score < 0.0) {
+      score = 0.0;
+    }
     velocity.z = velocity.z * (- elasticity);
     location.z = (boxLength / 2.0);
   }
   else if (location.z <= - (boxLength / 2.0)) {
+    lastScore = - velocity.mag();
+    score -= velocity.mag();
+    if(score < 0.0) {
+      score = 0.0;
+    }
     velocity.z = velocity.z * (- elasticity);
     location.z = - (boxLength / 2.0);
   }
@@ -94,6 +145,9 @@ void checkCylinderCollision(ArrayList<PVector> a, int cylinderBaseSize, int boxD
       //Create a new cylinder vector adapted to the location
       PVector correctedC = new PVector(c.x, location.y, c.y);
       if(correctedC.dist(location) <= (sphereRadius + cylinderBaseSize)) {
+        //Increment the score by current velocity & save the last score (last hitting event)
+        lastScore = velocity.mag();
+        score += velocity.mag();
         //Compute the normal vector
         PVector normal = correctedC.get();
         normal.sub(location);

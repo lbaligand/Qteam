@@ -4,35 +4,64 @@
 int boxLength = 300;
 int boxDepth = 5;
 
-//axis angles (X, Y, Z)
+//axis angles (X, Z)
 float rx = 0.0;
 float rz = 0.0;
 
 //rotation speed
 float speed = 1.0;
-float currentX;
-float currentY;
 
 //mover for the ball
 Mover mover;
-int sphereRadius = 10;
+int sphereRadius = 15;
 
 //cylinderMode parameters
 boolean cylinderMode = false;
 boolean isClicked = false;
-ArrayList<PVector> cylinders;
-Cylinder c; //"model" for the cylinder to avoid reconstruction (retained-style)
+
+//int cylinderBaseSize;          //MODIF
+//int cylinderHeight;
+//int cylinderResolution;
+//ArrayList<PVector> cylinders;
+//Cylinder c; //"model" for the cylinder to avoid reconstruction (retained-style)
 
 //Data visualization surfaces
+int panelHeight;
 PGraphics dataBackGround;
+PGraphics topView;
+PGraphics scoreboard;
+
+//Tree visualization
+int treeBaseSize;
+PShape tree;
+ArrayList<PVector> trees;
 
 void setup() {
+  //Setup
   size(600, 600, P3D);
   stroke(0);
+  
+  //Ball
   mover = new Mover(boxDepth, sphereRadius);
-  c = new Cylinder(25, 25, 40);
-  cylinders = new ArrayList();
-  dataBackGround = createGraphics(600, 100, P2D);
+  
+  //Cylinders                                                              //MODIF
+  //cylinderBaseSize = 25;
+  //cylinderHeight = 25;
+  //cylinderResolution = 40;
+  //c = new Cylinder(cylinderBaseSize, cylinderHeight, cylinderResolution);
+  //cylinders = new ArrayList();
+  
+  //Panel
+  panelHeight = 100;
+  dataBackGround = createGraphics(width, panelHeight, P2D);
+  topView = createGraphics(8 * panelHeight / 10, 8 * panelHeight / 10, P2D);
+  scoreboard = createGraphics(8 * panelHeight / 10, 8 * panelHeight / 10, P2D);
+  
+  //Trees
+  treeBaseSize = 20;
+  tree = loadShape("simpleTree.obj");
+  tree.scale(50);
+  trees = new ArrayList();
 }
 
 void draw() {
@@ -41,6 +70,10 @@ void draw() {
   fill(255, 250, 205);
   drawBackGround();
   image(dataBackGround, 0, 500);
+  drawTopView();
+  image(topView, panelHeight/10, height - panelHeight + panelHeight/10);
+  drawScoreBoard();
+  image(scoreboard, panelHeight, height - panelHeight + panelHeight/10);
   fill(0, 100, 0);
   translate(width/2, height/2, 0);
   
@@ -63,17 +96,20 @@ void draw() {
   pushMatrix();
   mover.update(rx, rz);
   mover.checkEdges(boxLength);
-  mover.checkCylinderCollision(cylinders, 50, boxDepth);
+  mover.checkCylinderCollision(trees, treeBaseSize, boxDepth);                    //MODIF : cylinders -> trees, cylinderBaseSize -> treeBaseSize
   translate(mover.getX(), - (boxDepth/2 + sphereRadius), mover.getZ());
   mover.display();
   popMatrix();
   
-  //Draw all the added cylinders on the plate
-  pushMatrix();
-  for(PVector p : cylinders) {
-     c.display(p.x, p.y, boxDepth);
+  //Draw all the added trees on the plate
+  for(PVector t : trees) {
+     pushMatrix();
+     rotate(PI);
+     translate(- t.x, -boxDepth/2, t.y);
+     shape(tree);
+     popMatrix();
+     //c.display(p.x, p.y, boxDepth);                                              //MODIF
   }
-  popMatrix();
   
  } else {
    pushMatrix();
@@ -88,23 +124,39 @@ void draw() {
    mover.display();
    popMatrix();
    
-   //Add cylinders on the plate
+   //Add trees on the plate
    pushMatrix();
+   
    //Display the moving cylinder
-   c.display(mouseX - (width/2), mouseY - (height/2), boxDepth);
-   //If a click occurs, add a new cylinder on the plate at that position
+   //c.display(mouseX - (width/2), mouseY - (height/2), boxDepth);                            //MODIF
+   
+   //Display the tree                                                                         
+   pushMatrix();
+   rotate(PI);
+   translate(- mouseX + (width/2), -boxDepth/2, mouseY - (height/2));
+   shape(tree);
+   popMatrix();
+   //If a click occurs, add a new tree on the plate at that position
    //Check if the cylinder is beyond the edges of the plate and
    //if so, do not place it
    if(isClicked) {
-     if((mouseX - (width/2) >= (- boxLength/2 + 50/2)) && (mouseX - (width/2) <= (boxLength/2 - 50/2)) 
-       && (mouseY - (height/2) <= (boxLength/2 - 50/2)) && (mouseY - (height/2) >= (-boxLength/2 + 50/2))) {
-       cylinders.add(new PVector(mouseX - (width/2), mouseY - (height/2)));
+     if((- mouseX + (width/2) >= (- boxLength/2 + treeBaseSize/2)) && (- mouseX + (width/2) <= (boxLength/2 - treeBaseSize/2))
+       && (mouseY - (height/2) <= (boxLength/2 - treeBaseSize/2)) && (mouseY - (height/2) >= (-boxLength/2 + treeBaseSize/2))) {
+         
+       //cylinders.add(new PVector(mouseX - (width/2), mouseY - (height/2)));                                                    //MODIF
+       
+       trees.add(new PVector(mouseX - width/2, mouseY - height/2));
      }
      isClicked = false;
    }
-   //Display the added cylinders on the plate
-   for(PVector p : cylinders) {
-     c.display(p.x, p.y, boxDepth);
+   //Display the added trees on the plate
+   for(PVector t : trees) {
+     pushMatrix();
+     rotate(PI);
+     translate(- t.x, -boxDepth/2, t.y);
+     shape(tree);
+     popMatrix();
+     //c.display(p.x, p.y, boxDepth);                              //MODIF
    }
    popMatrix();
    
@@ -162,4 +214,45 @@ void drawBackGround() {
   dataBackGround.beginDraw();
   dataBackGround.background(255, 250, 205);
   dataBackGround.endDraw();
+}
+
+void drawTopView() {
+  topView.beginDraw();
+  
+  topView.background(0, 130, 0);
+  topView.rect(panelHeight/10, height - panelHeight + panelHeight/10, 8 * panelHeight / 10, 8 * panelHeight / 10);
+  
+  float ballPanelWidth = map(2 * sphereRadius, 0, boxLength, 0, 8 * panelHeight / 10);
+  float ballPanelX = map(mover.getX(), -boxLength / 2, boxLength / 2, 0, 8 * panelHeight / 10);
+  float ballPanelY = map(mover.getZ(), -boxLength / 2, boxLength / 2, 0, 8 * panelHeight / 10);
+  topView.fill(139, 10, 90);
+  topView.ellipse(ballPanelX, ballPanelY, ballPanelWidth, ballPanelWidth);
+  
+  for(PVector t : trees) {
+    float cylinderPanelX = map(t.x, -boxLength / 2, boxLength / 2, 0, 8 * panelHeight / 10);              //MODIF : CYLINDER -> TREE
+    float cylinderPanelY = map(t.y, -boxLength / 2, boxLength / 2, 0, 8 * panelHeight / 10);
+    float cylinderPanelBaseSize = map(2 * treeBaseSize, 0, boxLength, 0, 8 * panelHeight / 10);
+    topView.fill(0, 139, 0);
+    topView.ellipse(cylinderPanelX, cylinderPanelY, cylinderPanelBaseSize, cylinderPanelBaseSize);
+  }
+  
+  topView.endDraw();
+}
+
+void drawScoreBoard() {
+  scoreboard.beginDraw();
+  
+  scoreboard.background(141, 182, 205);
+  scoreboard.rect(panelHeight, height - panelHeight + panelHeight/10, 8 * panelHeight / 10, 8 * panelHeight / 10);
+  
+  scoreboard.textSize(7);
+  scoreboard.fill(139, 10, 90);
+  //Total Score
+  scoreboard.text("Total Score :" + mover.getScore(), 8 * panelHeight / 200, 8 * panelHeight / 50);
+  //Current velocity magnitude
+  scoreboard.text("Velocity: " + mover.getVelocityMagnitude(), 8 * panelHeight / 200, 2.5 * 8 * panelHeight / 50);
+  //Points achieved in the last hitting event
+  scoreboard.text("Last score: " + mover.getLastScore(), 8 * panelHeight / 200, 4 * 8 * panelHeight / 50);
+  
+  scoreboard.endDraw();
 }
