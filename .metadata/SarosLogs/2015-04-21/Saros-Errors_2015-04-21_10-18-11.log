@@ -1,0 +1,119 @@
+WARN  2015-04-21 10:17:26,497 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:17:26,557 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:17:51,008 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:17:51,181 (NullSarosSession.java:64) unexpected method call
+ERROR 2015-04-21 10:18:08,225 (StunServiceImpl.java:263) error sending STUN request
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-04-21 10:18:18,226 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.140:0
+WARN  2015-04-21 10:18:27,616 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-21 10:18:28,585 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-21 10:18:43,869 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-21 10:18:44,009 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+ERROR 2015-04-21 10:21:53,059 (BinaryChannelConnection.java:101) SOCKS5 (direct) [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+ERROR 2015-04-21 10:21:54,528 (ActivitySequencer.java:535) failed to sent activities: [JupiterActivityDO(timestamp: [26,0], operation: Insert(656,'s',656), path: SPathDataObject [editorType=txt, path=src/cs211/ImageProcessing.java, projectID=1210361609], source: raphael.latty@saros-con.imp.fu-berlin.de/Saros)]
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-04-21 10:24:54,095 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-21 10:24:54,314 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-21 10:24:59,124 (SharedResourcesManager.java:413) Resource changed while paused:
+C(0) /
+C(0) /CS211BeerPong
+C(0) /CS211BeerPong/src
+C(0) /CS211BeerPong/src/cs211
+C(C) /CS211BeerPong/src/cs211/ImageProcessing.java
+
+WARN  2015-04-21 10:31:09,846 (LeaveAndKickHandler.java:110) received leave message from user who is not part of the current session: theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros
+WARN  2015-04-21 10:31:11,550 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:31:11,565 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:31:13,758 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:31:13,789 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:31:13,789 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:31:37,363 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:31:37,363 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:31:37,660 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:31:37,660 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 10:31:39,629 (SubscriptionManager.java:97) received error presence package from saros887517581@conference.saros-con.imp.fu-berlin.de/raphael.latty@saros-con.imp.fu-berlin.de/Saros, condition: not-authorized, message: A password is required to enter this room
+WARN  2015-04-21 11:29:42,371 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@6e263a6
+WARN  2015-04-21 11:33:09,323 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@7a4c98db
+WARN  2015-04-21 11:33:17,335 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@659d70d0
+WARN  2015-04-21 11:54:45,474 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@561e039
+WARN  2015-04-21 12:07:22,176 (LeaveAndKickHandler.java:132) received leave message from user louis which is not the host of the current session
+WARN  2015-04-21 12:07:22,208 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:22,223 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:22,270 (SarosSession.java:641) failed to notify user louis about local session stop
+java.io.IOException: not connected to louis@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:637)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:342)
+	at de.fu_berlin.inf.dpp.net.business.LeaveAndKickHandler$5.run(LeaveAndKickHandler.java:155)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-04-21 12:07:22,489 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:22,504 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:22,536 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:22,551 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:22,583 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:22,583 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:22,598 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:25,956 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:25,956 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:26,894 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:26,894 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:28,769 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:28,785 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:29,988 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,004 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,192 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,192 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,379 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,379 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,410 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,426 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,582 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,613 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,690 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:30,701 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:31,433 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:31,456 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:31,512 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:31,522 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-21 12:07:32,140 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@258b5082, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-04-21 12:07:32,329 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@499aad58, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)

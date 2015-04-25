@@ -1,0 +1,880 @@
+!SESSION 2015-04-14 10:06:54.916 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 10:16:03.746
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 10:16:03.757
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 10:16:21.050
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 10:16:21.083
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-14 10:16:28.323
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-14 10:16:28.353
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.j2ee.core 4 0 2015-04-14 10:31:53.175
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:100)
+	at org.eclipse.jst.j2ee.internal.J2EEInit.aquireInitializePackageContentsLock(J2EEInit.java:454)
+	at org.eclipse.jst.j2ee.webservice.wsclient.internal.impl.Webservice_clientPackageImpl.initializePackageContents(Webservice_clientPackageImpl.java:457)
+	at org.eclipse.jst.j2ee.webservice.wsclient.internal.impl.Webservice_clientPackageImpl.init(Webservice_clientPackageImpl.java:141)
+	at org.eclipse.jst.j2ee.webservice.wsclient.Webservice_clientPackage.<clinit>(Webservice_clientPackage.java:75)
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at sun.reflect.UnsafeFieldAccessorFactory.newFieldAccessor(Unknown Source)
+	at sun.reflect.ReflectionFactory.newFieldAccessor(Unknown Source)
+	at java.lang.reflect.Field.acquireFieldAccessor(Unknown Source)
+	at java.lang.reflect.Field.getFieldAccessor(Unknown Source)
+	at java.lang.reflect.Field.get(Unknown Source)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor.getEPackage(RegistryReader.java:273)
+	at org.eclipse.emf.ecore.impl.EPackageRegistryImpl.getEPackage(EPackageRegistryImpl.java:127)
+	at org.eclipse.jst.j2ee.common.internal.impl.CommonPackageImpl.initializePackageContents(CommonPackageImpl.java:1332)
+	at org.eclipse.jst.j2ee.common.internal.impl.CommonPackageImpl.init(CommonPackageImpl.java:297)
+	at org.eclipse.jst.j2ee.common.CommonPackage.<clinit>(CommonPackage.java:243)
+	at org.eclipse.jst.j2ee.internal.provider.J2EEAdapterFactoryLabelProvider.<clinit>(J2EEAdapterFactoryLabelProvider.java:41)
+	at org.eclipse.jst.j2ee.navigator.internal.J2EELabelProvider.initialize(J2EELabelProvider.java:57)
+	at org.eclipse.jst.j2ee.navigator.internal.J2EELabelProvider.init(J2EELabelProvider.java:246)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension$2.run(NavigatorContentExtension.java:176)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension.getLabelProvider(NavigatorContentExtension.java:169)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findStyledText(NavigatorContentServiceLabelProvider.java:163)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText(NavigatorContentServiceLabelProvider.java:151)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText(NavigatorDecoratingLabelProvider.java:67)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:195)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText(DecoratingStyledCellLabelProvider.java:192)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:103)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:152)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:953)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:113)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1033)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:485)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:848)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createAddedElements(AbstractTreeViewer.java:346)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalAdd(AbstractTreeViewer.java:280)
+	at org.eclipse.jface.viewers.TreeViewer.internalAdd(TreeViewer.java:662)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:155)
+	at org.eclipse.ui.navigator.CommonViewer.add(CommonViewer.java:303)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:667)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider$4.run(PackageExplorerContentProvider.java:975)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.runUpdates(PackageExplorerContentProvider.java:195)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.runPendingUpdates(PackageExplorerContentProvider.java:187)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider$1.runInUIThread(PackageExplorerContentProvider.java:165)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:123)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:97)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:144)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:233)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:197)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:286)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:118)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2283)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.DialogPackageExplorer.setSelection(DialogPackageExplorer.java:461)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.DialogPackageExplorer.setInput(DialogPackageExplorer.java:438)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.NewSourceContainerWorkbookPage.doUpdateUI(NewSourceContainerWorkbookPage.java:138)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.NewSourceContainerWorkbookPage.access$0(NewSourceContainerWorkbookPage.java:137)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.NewSourceContainerWorkbookPage$1.run(NewSourceContainerWorkbookPage.java:131)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1028)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.performFinish(NewElementWizard.java:134)
+	at org.eclipse.jdt.internal.ui.wizards.JavaProjectWizard.performFinish(JavaProjectWizard.java:90)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:827)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:432)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:259)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:279)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:243)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:224)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:167)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:420)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:157)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:04:37.399
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:04:38.091
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+SASL authentication PLAIN failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.Saros$2.run(Saros.java:600)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:04:47.396
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:04:54.520
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+SASL authentication PLAIN failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.Saros$2.run(Saros.java:600)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:04:54.533
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:05:00.004
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:05:00.145
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+SASL authentication PLAIN failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:195)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:05:04.532
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:05:05.707
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+SASL authentication PLAIN failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:195)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:05:05.723
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:05:10.003
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:05:12.452
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+SASL authentication PLAIN failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:195)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:05:12.571
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:05:15.723
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:05:22.570
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:05:50.532
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:06:00.531
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:06:11.247
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+msn.com:5222 Exception: XMPPError connecting to msn.com:5222.; : remote-server-error(502)
+	at org.jivesoftware.smack.XMPPConnection.connectUsingConfiguration(XMPPConnection.java:600)
+	at org.jivesoftware.smack.XMPPConnection.connect(XMPPConnection.java:1022)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:250)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:195)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:06:27.412
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:06:37.411
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:06:48.114
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+msn.com:5222 Exception: XMPPError connecting to msn.com:5222.; : remote-server-error(502)
+	at org.jivesoftware.smack.XMPPConnection.connectUsingConfiguration(XMPPConnection.java:600)
+	at org.jivesoftware.smack.XMPPConnection.connect(XMPPConnection.java:1022)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:250)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:195)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:07:34.352
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:07:44.352
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:07:55.729
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+msn.com:5222 Exception: XMPPError connecting to msn.com:5222.; : remote-server-error(502)
+	at org.jivesoftware.smack.XMPPConnection.connectUsingConfiguration(XMPPConnection.java:600)
+	at org.jivesoftware.smack.XMPPConnection.connect(XMPPConnection.java:1022)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:250)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:195)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:47:39.168
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:47:39.418
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+SASL authentication PLAIN failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:195)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:47:44.420
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:47:44.603
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+SASL authentication PLAIN failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:195)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:47:49.166
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:47:52.288
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:47:52.520
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+SASL authentication PLAIN failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:681)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:195)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:47:54.419
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:48:02.287
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:49:09.032
+!MESSAGE conflict(409) (CreateXMPPAccountWizard.java:139)
+!STACK 0
+conflict(409)
+	at org.jivesoftware.smack.AccountManager.createAccount(AccountManager.java:240)
+	at org.jivesoftware.smack.AccountManager.createAccount(AccountManager.java:203)
+	at de.fu_berlin.inf.dpp.net.util.RosterUtils.createAccount(RosterUtils.java:210)
+	at de.fu_berlin.inf.dpp.ui.wizards.CreateXMPPAccountWizard$1.run(CreateXMPPAccountWizard.java:126)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-14 11:49:53.662
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:50:03.661
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.93:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:50:48.962
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:50:49.275
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:51:16.706
+!MESSAGE Resource changed while paused:
+C(0) /
+C(0) /CS211BeerPong
+C(0) /CS211BeerPong/src
+C(0) /CS211BeerPong/src/cs211
+C(C) /CS211BeerPong/src/cs211/ImageProcessing.java
+ (SharedResourcesManager.java:413)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:51:16.949
+!MESSAGE Resource changed while paused:
+C(0) /
+C(0) /CS211BeerPong
+C(0) * /CS211BeerPong/bin
+C(0) * /CS211BeerPong/bin/cs211
+C(C) * /CS211BeerPong/bin/cs211/ImageProcessing.class
+C(0) /CS211BeerPong/src
+C(0) /CS211BeerPong/src/cs211
+C(M) /CS211BeerPong/src/cs211/ImageProcessing.java
+ (SharedResourcesManager.java:413)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:52:36.506
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 11:52:36.718
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:07.784
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:07.799
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:07.877
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:07.877
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:07.971
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:07.971
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:08.065
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:17.917
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:17.933
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:20.011
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:20.011
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:21.234
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:21.250
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:21.609
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:21.625
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:21.750
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:21.765
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:21.797
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:21.812
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:21.984
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:22.002
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:22.051
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:22.081
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:22.473
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:22.488
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:22.512
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-14 12:04:22.520
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2015-04-21 10:16:13.520 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:17:26.525
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:17:26.560
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:17:51.008
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:17:51.184
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-21 10:17:55.851
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-21 10:17:55.867
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-21 10:18:08.271
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:18:18.226
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.156.140:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:18:27.616
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:18:28.585
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:18:43.869
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:18:44.009
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-21 10:21:53.059
+!MESSAGE SOCKS5 (direct) [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out (BinaryChannelConnection.java:101)
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-21 10:21:54.528
+!MESSAGE failed to sent activities: [JupiterActivityDO(timestamp: [26,0], operation: Insert(656,'s',656), path: SPathDataObject [editorType=txt, path=src/cs211/ImageProcessing.java, projectID=1210361609], source: raphael.latty@saros-con.imp.fu-berlin.de/Saros)] (ActivitySequencer.java:535)
+!STACK 0
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:24:54.095
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:24:54.314
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:24:59.124
+!MESSAGE Resource changed while paused:
+C(0) /
+C(0) /CS211BeerPong
+C(0) /CS211BeerPong/src
+C(0) /CS211BeerPong/src/cs211
+C(C) /CS211BeerPong/src/cs211/ImageProcessing.java
+ (SharedResourcesManager.java:413)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:09.846
+!MESSAGE received leave message from user who is not part of the current session: theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros (LeaveAndKickHandler.java:110)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:11.550
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:11.565
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:13.758
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:13.789
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:13.789
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:37.363
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:37.378
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:37.660
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:37.660
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 10:31:39.629
+!MESSAGE received error presence package from saros887517581@conference.saros-con.imp.fu-berlin.de/raphael.latty@saros-con.imp.fu-berlin.de/Saros, condition: not-authorized, message: A password is required to enter this room (SubscriptionManager.java:97)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 11:29:42.371
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@6e263a6 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 11:33:09.323
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@7a4c98db (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 11:33:17.335
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@659d70d0 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 11:54:45.474
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@561e039 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.176
+!MESSAGE received leave message from user louis which is not the host of the current session (LeaveAndKickHandler.java:132)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.208
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.223
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.270
+!MESSAGE failed to notify user louis about local session stop (SarosSession.java:641)
+!STACK 0
+java.io.IOException: not connected to louis@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:637)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:342)
+	at de.fu_berlin.inf.dpp.net.business.LeaveAndKickHandler$5.run(LeaveAndKickHandler.java:155)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.489
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.504
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.536
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.551
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.583
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.583
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:22.598
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:25.956
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:25.972
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:26.894
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:26.894
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:28.769
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:28.785
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:29.988
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.004
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.192
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.192
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.379
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.395
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.426
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.426
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.582
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.616
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.695
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:30.704
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:31.448
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:31.458
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:31.514
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:31.524
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:32.141
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@258b5082, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-21 12:07:32.330
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@499aad58, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
