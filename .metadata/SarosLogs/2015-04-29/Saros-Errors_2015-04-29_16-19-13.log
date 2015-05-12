@@ -1,0 +1,117 @@
+WARN  2015-04-29 16:18:39,226 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 16:18:39,258 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 16:19:01,234 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 16:19:01,266 (NullSarosSession.java:64) unexpected method call
+ERROR 2015-04-29 16:19:11,711 (StunServiceImpl.java:263) error sending STUN request
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-04-29 16:19:21,715 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.154.106:0
+ERROR 2015-04-29 16:48:00,030 (SarosNet.java:95) XMPP connection error: 
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+ERROR 2015-04-29 16:48:00,265 (SarosNet.java:385)  new connection state == ERROR
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+ERROR 2015-04-29 16:54:16,610 (StunServiceImpl.java:263) error sending STUN request
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-04-29 16:54:26,611 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.154.106:0
+WARN  2015-04-29 16:54:47,947 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-29 16:54:48,275 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-29 17:03:15,219 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-29 17:03:15,422 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-29 17:44:23,530 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@cf8190b
+WARN  2015-04-29 18:05:49,779 (TextEditActivity.java:187) NoOp Text edit: new '' old ''
+WARN  2015-04-29 18:22:20,453 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@52a6840
+WARN  2015-04-29 18:22:24,937 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@69eb104a
+WARN  2015-04-29 18:26:55,107 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@7ab403ac
+ERROR 2015-04-29 18:57:08,173 (BinaryChannelConnection.java:101) SOCKS5 (direct) [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+ERROR 2015-04-29 18:57:09,230 (ActivitySequencer.java:535) failed to sent activities: [ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HScrollbar.java, projectID=1677727981], hash: -941513759, length: 3310, jupiterTimestamp: [0,0]), ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/ImageProcessing.java, projectID=1677727981], hash: 582142259, length: 6276, jupiterTimestamp: [1097,93])]
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-04-29 19:06:14,315 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:14,330 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:16,079 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:16,095 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:17,158 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:17,173 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:18,408 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:18,424 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:18,955 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:18,971 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:19,002 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:19,017 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:19,174 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:19,206 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:19,297 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:19,308 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:19,781 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:19,781 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:19,817 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-29 19:06:19,833 (NullSarosSession.java:64) unexpected method call

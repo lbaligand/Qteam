@@ -878,3 +878,1612 @@ StackTrace:
 	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
 	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
 	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-04-28 08:27:59.195 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:28:37.529
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:28:37.560
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:29:25.231
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:29:25.362
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-28 08:29:35.326
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-28 08:29:35.338
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 08:29:51.528
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:30:01.459
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.154.74:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:31:12.650
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:31:13.510
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:33:55.610
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:33:55.750
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:33:59.876
+!MESSAGE Resource changed while paused:
+C(0) /
+C(0) /CS211BeerPong
+C(0) /CS211BeerPong/src
+C(0) /CS211BeerPong/src/cs211
+C(MC) /CS211BeerPong/src/cs211/ImageProcessing.java
+ (SharedResourcesManager.java:413)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:43:21.421
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@d0b0cca (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:43:21.483
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@d0b0cca (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:43:21.577
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@d0b0cca (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:43:24.703
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@d0b0cca (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:52:29.648
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@10972322 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:52:31.967
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@5cd86fb8 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:52:39.313
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@6d81b49f (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:52:42.345
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@4c8ccb80 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:54:12.800
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@481c74c3 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:54:14.050
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@31b9db77 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:54:35.626
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@6fe5e735 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:56:10.413
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@16a43931 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:57:30.277
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@2e6e0458 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.651
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.683
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.698
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.714
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.792
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.792
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.808
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.823
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@50fb9185 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.823
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.854
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@343a6b36 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.870
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.886
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@73e85f7e (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.886
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.901
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.917
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.917
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.933
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.948
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.964
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 08:59:04.964
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 09:14:50.885
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@4d0925e5 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 09:26:25.720
+!MESSAGE SOCKS5 (direct) [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out (BinaryChannelConnection.java:101)
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 09:26:27.167
+!MESSAGE failed to sent activities: [ViewportActivityDO(path:SPathDataObject [editorType=txt, path=src/cs211/ImageProcessing.java, projectID=1115329704], range: (162,200))] (ActivitySequencer.java:535)
+!STACK 0
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 09:30:45.305
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@143eadf0 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 09:41:11.089
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:12:49.391
+!MESSAGE [louis@saros-con.imp.fu-berlin.de/Saros] failed to send Bytestream transfer. type=ping namespace=de.fu_berlin.inf.dpp with SOCKS5 (direct):Connection reset by peer: socket write error (DataTransferManager.java:273)
+!STACK 0
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendTransferDescription(BinaryChannelConnection.java:366)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:213)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:267)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:219)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:104)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:12:50.391
+!MESSAGE [louis@saros-con.imp.fu-berlin.de/Saros] failed to send Bytestream transfer. type=ados namespace=de.fu_berlin.inf.dpp with SOCKS5 (direct):connection is closed (DataTransferManager.java:273)
+!STACK 0
+java.io.EOFException: connection is closed
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:202)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:267)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:219)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:12:50.391
+!MESSAGE failed to send ping to: louis (ServerSessionTimeoutHandler.java:115)
+!STACK 0
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendTransferDescription(BinaryChannelConnection.java:366)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:213)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:267)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:219)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:104)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:12:50.579
+!MESSAGE failed to send ping to: theophile.de.cazenove (ServerSessionTimeoutHandler.java:115)
+!STACK 0
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:104)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:12:50.688
+!MESSAGE failed to sent activities: [ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HScrollbar.java, projectID=1115329704], hash: -941513759, length: 3310, jupiterTimestamp: [0,0])] (ActivitySequencer.java:535)
+!STACK 0
+java.io.EOFException: connection is closed
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:202)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:267)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:219)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:12:59.940
+!MESSAGE failed to sent activities: [ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HScrollbar.java, projectID=1115329704], hash: -941513759, length: 3310, jupiterTimestamp: [0,0])] (ActivitySequencer.java:535)
+!STACK 0
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:13:00.050
+!MESSAGE XMPP connection error:  (SarosNet.java:95)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:13:00.050
+!MESSAGE failed to send user list to user: theophile.de.cazenove (UserInformationHandler.java:161)
+!STACK 0
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.UserInformationHandler.synchronizeUserList(UserInformationHandler.java:157)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.removeUser(SarosSession.java:536)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.SessionTimeoutHandler$2.run(SessionTimeoutHandler.java:109)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:13:00.065
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 11:13:00.065
+!MESSAGE failed to synchronize user list with user(s) [theophile.de.cazenove] (UserInformationHandler.java:208)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:13:00.065
+!MESSAGE could not synchronize user list properly, following users did not respond: theophile.de.cazenove (SarosSession.java:540)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:13:01.456
+!MESSAGE unknown user in transformation result: [louis@saros-con.imp.fu-berlin.de/Saros]  (ConcurrentDocumentServer.java:218)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:13:04.871
+!MESSAGE unknown user in transformation result: [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  (ConcurrentDocumentServer.java:218)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:13:04.886
+!MESSAGE could not deserialize activity data object: ChangeColorActivityDO(source: raphael.latty@saros-con.imp.fu-berlin.de/Saros, affected: raphael.latty@saros-con.imp.fu-berlin.de/Saros, colorID: 0) (SarosSession.java:718)
+!STACK 0
+java.lang.IllegalArgumentException: target must not be null
+	at de.fu_berlin.inf.dpp.activities.business.ChangeColorActivity.<init>(ChangeColorActivity.java:28)
+	at de.fu_berlin.inf.dpp.activities.serializable.ChangeColorActivityDataObject.getActivity(ChangeColorActivityDataObject.java:57)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:716)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-28 11:13:04.902
+!MESSAGE could not deserialize activity data object: ChangeColorActivityDO(source: raphael.latty@saros-con.imp.fu-berlin.de/Saros, affected: louis@saros-con.imp.fu-berlin.de/Saros, colorID: 1) (SarosSession.java:718)
+!STACK 0
+java.lang.IllegalArgumentException: target must not be null
+	at de.fu_berlin.inf.dpp.activities.business.ChangeColorActivity.<init>(ChangeColorActivity.java:28)
+	at de.fu_berlin.inf.dpp.activities.serializable.ChangeColorActivityDataObject.getActivity(ChangeColorActivityDataObject.java:57)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:716)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:03.796
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:04.076
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:05.010
+!MESSAGE could not leave or destroy room: SAROS684548450@conference.saros-con.imp.fu-berlin.de (MultiUserChat.java:225)
+!STACK 0
+java.lang.IllegalStateException: Not connected to server.
+	at org.jivesoftware.smack.XMPPConnection.sendPacket(XMPPConnection.java:491)
+	at org.jivesoftware.smackx.muc.MultiUserChat.destroy(MultiUserChat.java:708)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat.disconnect(MultiUserChat.java:221)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChatService.destroyChat(MultiUserChatService.java:161)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatRoomsComposite$3$3.run(ChatRoomsComposite.java:191)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:05.440
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:05.448
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:06.860
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:06.872
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:07.445
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:07.449
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:07.469
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:07.473
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:07.592
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:07.604
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:07.786
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:07.794
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:09.916
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:09.924
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:10.356
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-28 17:17:10.360
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2015-04-29 16:18:05.232 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 16:18:39.234
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 16:18:39.258
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 16:19:01.234
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 16:19:01.266
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-29 16:19:02.763
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-29 16:19:02.763
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-29 16:19:11.742
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 16:19:21.715
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.154.106:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-29 16:48:00.030
+!MESSAGE XMPP connection error:  (SarosNet.java:95)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-29 16:48:00.265
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-29 16:54:16.610
+!MESSAGE error sending STUN request (StunServiceImpl.java:263)
+!STACK 0
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 16:54:26.611
+!MESSAGE received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.154.106:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 16:54:47.947
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 16:54:48.275
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 17:03:15.219
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 17:03:15.422
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 17:44:23.530
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@cf8190b (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 18:05:49.779
+!MESSAGE NoOp Text edit: new '' old '' (TextEditActivity.java:187)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 18:22:20.453
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@52a6840 (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 18:22:24.937
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@69eb104a (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 18:26:55.107
+!MESSAGE Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@7ab403ac (ContributionAnnotationManager.java:163)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-29 18:57:08.173
+!MESSAGE SOCKS5 (direct) [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out (BinaryChannelConnection.java:101)
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-04-29 18:57:09.230
+!MESSAGE failed to sent activities: [ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HScrollbar.java, projectID=1677727981], hash: -941513759, length: 3310, jupiterTimestamp: [0,0]), ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/ImageProcessing.java, projectID=1677727981], hash: 582142259, length: 6276, jupiterTimestamp: [1097,93])] (ActivitySequencer.java:535)
+!STACK 0
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:14.315
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:14.330
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:16.079
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:16.095
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:17.158
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:17.173
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:18.408
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:18.424
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:18.971
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:18.971
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:19.002
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:19.017
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:19.188
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:19.208
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:19.300
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:19.311
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:19.781
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:19.781
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:19.820
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-04-29 19:06:19.836
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2015-05-04 18:52:42.510 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-04 18:53:31.137
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-04 18:53:31.277
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-04 18:54:12.825
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-04 18:54:12.877
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-04 18:54:15.828
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-04 18:54:15.896
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-04 18:54:35.737
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.1.8:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-04 19:13:14.838
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-04 19:13:15.042
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-04 19:13:15.816
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@3a1ca7b1, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-04 19:13:15.990
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@56d4ef91, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-05-05 08:02:00.300 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 08:02:32.883
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 08:02:33.055
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 08:03:24.202
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 08:03:24.298
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-05 08:03:30.132
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-05 08:03:30.172
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 08:03:52.131
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.228:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 09:13:45.861
+!MESSAGE XMPP connection error:  (SarosNet.java:95)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 09:13:46.096
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 10:16:31.152
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.228:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 10:16:41.015
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 10:16:41.720
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 10:36:21.161
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 10:36:21.395
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:08:47.429
+!MESSAGE could not get content of file /CS211BeerPong/src/cs211/HoughComparator.java (FileUtils.java:483)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 11:29:06.287
+!MESSAGE SOCKS5 (direct) [louis@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out (BinaryChannelConnection.java:101)
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 11:29:06.495
+!MESSAGE SOCKS5 (direct) [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out (BinaryChannelConnection.java:101)
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 11:29:07.384
+!MESSAGE failed to sent activities: [ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HoughTransform.java, projectID=1151816445], hash: 1913769428, length: 701, jupiterTimestamp: [42,0])] (ActivitySequencer.java:535)
+!STACK 0
+java.io.IOException: not connected to louis@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 11:29:07.396
+!MESSAGE failed to sent activities: [ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HoughTransform.java, projectID=1151816445], hash: 1913769428, length: 701, jupiterTimestamp: [17,25]), ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HScrollbar.java, projectID=1151816445], hash: -941513759, length: 3310, jupiterTimestamp: [0,0]), ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/ImageProcessing.java, projectID=1151816445], hash: -2116489022, length: 8197, jupiterTimestamp: [685,47]), ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HoughComparator.java, projectID=1151816445], hash: -702579188, length: 412, jupiterTimestamp: [0,100])] (ActivitySequencer.java:535)
+!STACK 0
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 11:29:07.408
+!MESSAGE failed to send user list to user: theophile.de.cazenove (UserInformationHandler.java:161)
+!STACK 0
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.UserInformationHandler.synchronizeUserList(UserInformationHandler.java:157)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.removeUser(SarosSession.java:536)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.SessionTimeoutHandler$2.run(SessionTimeoutHandler.java:109)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:07.416
+!MESSAGE failed to synchronize user list with user(s) [theophile.de.cazenove] (UserInformationHandler.java:208)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 11:29:07.428
+!MESSAGE could not synchronize user list properly, following users did not respond: theophile.de.cazenove (SarosSession.java:540)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 11:29:07.452
+!MESSAGE could not deserialize activity data object: ChangeColorActivityDO(source: raphael.latty@saros-con.imp.fu-berlin.de/Saros, affected: raphael.latty@saros-con.imp.fu-berlin.de/Saros, colorID: 0) (SarosSession.java:718)
+!STACK 0
+java.lang.IllegalArgumentException: target must not be null
+	at de.fu_berlin.inf.dpp.activities.business.ChangeColorActivity.<init>(ChangeColorActivity.java:28)
+	at de.fu_berlin.inf.dpp.activities.serializable.ChangeColorActivityDataObject.getActivity(ChangeColorActivityDataObject.java:57)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:716)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 11:29:07.464
+!MESSAGE could not deserialize activity data object: ChangeColorActivityDO(source: raphael.latty@saros-con.imp.fu-berlin.de/Saros, affected: louis@saros-con.imp.fu-berlin.de/Saros, colorID: 1) (SarosSession.java:718)
+!STACK 0
+java.lang.IllegalArgumentException: target must not be null
+	at de.fu_berlin.inf.dpp.activities.business.ChangeColorActivity.<init>(ChangeColorActivity.java:28)
+	at de.fu_berlin.inf.dpp.activities.serializable.ChangeColorActivityDataObject.getActivity(ChangeColorActivityDataObject.java:57)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:716)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:22.001
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:22.013
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:22.089
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:22.109
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:23.901
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:23.921
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:28.230
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:28.250
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:28.278
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:28.302
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:29.686
+!MESSAGE cannot leave a non-running session (CollaborationUtils.java:132)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:30.798
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:30.822
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:36.063
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:36.091
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:37.675
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:37.699
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:46.257
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:29:46.289
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:30:04.171
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:30:04.195
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:30:05.679
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.228:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:31:48.680
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:31:48.711
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:32:32.377
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:32:32.409
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:32:42.019
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:32:42.066
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:32:47.755
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:32:47.990
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:33:05.379
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 11:33:05.504
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 12:06:41.100
+!MESSAGE SOCKS5 (direct) [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out (BinaryChannelConnection.java:101)
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 12:06:42.526
+!MESSAGE failed to send ping to: theophile.de.cazenove (ServerSessionTimeoutHandler.java:115)
+!STACK 0
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:104)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-05 12:06:43.865
+!MESSAGE error in notifying listener of session ending:  (SarosSessionManager.java:710)
+!STACK 0
+java.lang.NullPointerException
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:144)
+	at de.fu_berlin.inf.dpp.ui.actions.RemoveUserAction$2.sessionEnding(RemoveUserAction.java:61)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnding(SarosSessionManager.java:708)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:337)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 12:06:43.965
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.editor.EditorManager$2$1@7162c3d9, UI thread is not available (SWTUtils.java:193)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTSync(SWTUtils.java:194)
+	at de.fu_berlin.inf.dpp.editor.EditorManager$2.unblock(EditorManager.java:205)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.lockSession(StopManager.java:390)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.sessionStopped(StopManager.java:517)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.stop(StopManager.java:563)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.doLifecycleMethod(StartableLifecycleStrategy.java:101)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stopComponent(StartableLifecycleStrategy.java:113)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stop(StartableLifecycleStrategy.java:126)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.stop(AbstractInjectionFactory.java:88)
+	at org.picocontainer.behaviors.AbstractBehavior.stop(AbstractBehavior.java:179)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.stop(Stored.java:141)
+	at org.picocontainer.behaviors.Stored.stop(Stored.java:118)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1036)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:791)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:625)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:342)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 12:06:43.996
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.actions.StoppedAction$3@2e199625, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.actions.StoppedAction.setUnblockEnabled(StoppedAction.java:80)
+	at de.fu_berlin.inf.dpp.ui.actions.StoppedAction$1$1.setValue(StoppedAction.java:52)
+	at de.fu_berlin.inf.dpp.ui.actions.StoppedAction$1$1.setValue(StoppedAction.java:1)
+	at de.fu_berlin.inf.dpp.util.ObservableValue.setValue(ObservableValue.java:89)
+	at de.fu_berlin.inf.dpp.util.ObservableValue.setValue(ObservableValue.java:73)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.lockSession(StopManager.java:392)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.sessionStopped(StopManager.java:517)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.stop(StopManager.java:563)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.doLifecycleMethod(StartableLifecycleStrategy.java:101)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stopComponent(StartableLifecycleStrategy.java:113)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stop(StartableLifecycleStrategy.java:126)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.stop(AbstractInjectionFactory.java:88)
+	at org.picocontainer.behaviors.AbstractBehavior.stop(AbstractBehavior.java:179)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.stop(Stored.java:141)
+	at org.picocontainer.behaviors.Stored.stop(Stored.java:118)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1036)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:791)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:625)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:342)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 12:06:44.008
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.editor.EditorManager$4$2@55b2dd28, UI thread is not available (SWTUtils.java:193)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTSync(SWTUtils.java:194)
+	at de.fu_berlin.inf.dpp.editor.EditorManager$4.sessionEnded(EditorManager.java:330)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnded(SarosSessionManager.java:718)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:349)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 12:06:44.020
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.views.SarosView$11@298d7638, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.views.SarosView.clearNotifications(SarosView.java:644)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.HostLeftAloneInSessionHandler$1.sessionEnded(HostLeftAloneInSessionHandler.java:46)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnded(SarosSessionManager.java:718)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:349)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 12:06:44.034
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.decorators.SharedProjectDecorator$2@4b66e4bd, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectDecorator.updateDecoratorsAsync(SharedProjectDecorator.java:156)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectDecorator.access$2(SharedProjectDecorator.java:155)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectDecorator$1.sessionEnded(SharedProjectDecorator.java:93)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnded(SarosSessionManager.java:718)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:349)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 12:06:44.045
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.decorators.SharedProjectFileDecorator$4@27fb3eb0, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectFileDecorator.updateDecoratorsAsync(SharedProjectFileDecorator.java:251)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectFileDecorator.updateDecoration(SharedProjectFileDecorator.java:246)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectFileDecorator.access$2(SharedProjectFileDecorator.java:235)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectFileDecorator$1.sessionEnded(SharedProjectFileDecorator.java:136)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnded(SarosSessionManager.java:718)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:349)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 12:06:44.059
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@6e0fc200, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-05 12:06:44.222
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@6a153488, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-05-12 08:05:47.127 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 08:07:56.151
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 08:07:56.494
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 08:08:25.373
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 08:08:25.419
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-12 08:08:28.037
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-12 08:08:28.053
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 08:08:52.840
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.158.167:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 08:08:52.840
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-12 09:13:29.725
+!MESSAGE XMPP connection error:  (SarosNet.java:95)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-12 09:13:30.209
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 09:24:15.979
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 09:24:16.026
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.158.167:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-12 09:24:56.219
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-12 09:25:00.810
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 09:27:31.237
+!MESSAGE Resource changed while paused:
+C(0) /
+C(0) /CS211BeerPong
+C(0) /CS211BeerPong/src
+C(0) /CS211BeerPong/src/cs211
+C(MC) /CS211BeerPong/src/cs211/ImageProcessing.java
+ (SharedResourcesManager.java:413)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-12 09:27:44.464
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-12 09:27:48.730
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:40:32.380
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:40:32.427
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:43:07.479
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:43:07.510
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:43:07.526
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:43:07.542
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:43:13.931
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:43:13.977
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:43:19.510
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:43:19.525
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:00.731
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:00.747
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:10.280
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:10.295
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:14.280
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:14.296
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:23.697
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:23.712
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:26.291
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:26.307
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:50.751
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:50.767
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:52.500
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:44:52.516
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:45:58.692
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:45:58.723
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:00.418
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:00.434
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:02.376
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:02.392
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:05.549
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:05.564
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:07.315
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:07.330
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:10.315
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:10.331
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:10.393
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:10.409
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:11.550
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:46:11.565
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:55:50.652
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:55:50.683
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:56:08.549
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:56:08.564
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:56:20.645
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:56:20.661
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:56:24.630
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:56:24.661
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:08.902
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:08.918
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:11.668
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:11.684
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:12.246
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:12.262
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:12.293
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:12.309
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:12.481
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:12.496
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:12.590
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:12.590
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:14.189
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:14.205
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:14.251
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:14.267
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:15.551
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:15.564
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:16.209
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:16.224
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:16.994
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@bc3607a, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-12 10:59:17.174
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@5b5c5453, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)

@@ -1,0 +1,305 @@
+WARN  2015-05-05 08:02:32,883 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 08:02:33,055 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 08:03:24,202 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 08:03:24,294 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 08:03:52,131 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.228:0
+ERROR 2015-05-05 09:13:43,046 (SarosNet.java:95) XMPP connection error: 
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+ERROR 2015-05-05 09:13:46,096 (SarosNet.java:385)  new connection state == ERROR
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+WARN  2015-05-05 10:16:31,152 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.228:0
+WARN  2015-05-05 10:16:41,015 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-05-05 10:16:41,720 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-05-05 10:36:21,161 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-05-05 10:36:21,395 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-05-05 11:08:47,413 (FileUtils.java:483) could not get content of file /CS211BeerPong/src/cs211/HoughComparator.java
+ERROR 2015-05-05 11:29:06,287 (BinaryChannelConnection.java:101) SOCKS5 (direct) [louis@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+ERROR 2015-05-05 11:29:06,495 (BinaryChannelConnection.java:101) SOCKS5 (direct) [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+ERROR 2015-05-05 11:29:07,384 (ActivitySequencer.java:535) failed to sent activities: [ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HoughTransform.java, projectID=1151816445], hash: 1913769428, length: 701, jupiterTimestamp: [42,0])]
+java.io.IOException: not connected to louis@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-05-05 11:29:07,396 (ActivitySequencer.java:535) failed to sent activities: [ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HoughTransform.java, projectID=1151816445], hash: 1913769428, length: 701, jupiterTimestamp: [17,25]), ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HScrollbar.java, projectID=1151816445], hash: -941513759, length: 3310, jupiterTimestamp: [0,0]), ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/ImageProcessing.java, projectID=1151816445], hash: -2116489022, length: 8197, jupiterTimestamp: [685,47]), ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HoughComparator.java, projectID=1151816445], hash: -702579188, length: 412, jupiterTimestamp: [0,100])]
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-05-05 11:29:07,396 (UserInformationHandler.java:161) failed to send user list to user: theophile.de.cazenove
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.UserInformationHandler.synchronizeUserList(UserInformationHandler.java:157)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.removeUser(SarosSession.java:536)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.SessionTimeoutHandler$2.run(SessionTimeoutHandler.java:109)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-05-05 11:29:07,416 (UserInformationHandler.java:208) failed to synchronize user list with user(s) [theophile.de.cazenove]
+ERROR 2015-05-05 11:29:07,424 (SarosSession.java:540) could not synchronize user list properly, following users did not respond: theophile.de.cazenove
+ERROR 2015-05-05 11:29:07,448 (SarosSession.java:718) could not deserialize activity data object: ChangeColorActivityDO(source: raphael.latty@saros-con.imp.fu-berlin.de/Saros, affected: raphael.latty@saros-con.imp.fu-berlin.de/Saros, colorID: 0)
+java.lang.IllegalArgumentException: target must not be null
+	at de.fu_berlin.inf.dpp.activities.business.ChangeColorActivity.<init>(ChangeColorActivity.java:28)
+	at de.fu_berlin.inf.dpp.activities.serializable.ChangeColorActivityDataObject.getActivity(ChangeColorActivityDataObject.java:57)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:716)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-05-05 11:29:07,460 (SarosSession.java:718) could not deserialize activity data object: ChangeColorActivityDO(source: raphael.latty@saros-con.imp.fu-berlin.de/Saros, affected: louis@saros-con.imp.fu-berlin.de/Saros, colorID: 1)
+java.lang.IllegalArgumentException: target must not be null
+	at de.fu_berlin.inf.dpp.activities.business.ChangeColorActivity.<init>(ChangeColorActivity.java:28)
+	at de.fu_berlin.inf.dpp.activities.serializable.ChangeColorActivityDataObject.getActivity(ChangeColorActivityDataObject.java:57)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:716)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-05-05 11:29:22,001 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:22,009 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:22,085 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:22,105 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:23,897 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:23,917 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:28,226 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:28,250 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:28,274 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:28,298 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:29,682 (CollaborationUtils.java:132) cannot leave a non-running session
+WARN  2015-05-05 11:29:30,794 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:30,818 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:36,063 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:36,087 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:37,671 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:37,695 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:46,253 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:29:46,285 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:30:04,171 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:30:04,195 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:30:05,679 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.228:0
+WARN  2015-05-05 11:31:48,680 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:31:48,711 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:32:32,377 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:32:32,409 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:32:42,019 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:32:42,066 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-05 11:32:47,755 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-05-05 11:32:47,974 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-05-05 11:33:05,379 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-05-05 11:33:05,504 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+ERROR 2015-05-05 12:06:41,098 (BinaryChannelConnection.java:101) SOCKS5 (direct) [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+ERROR 2015-05-05 12:06:42,524 (ServerSessionTimeoutHandler.java:115) failed to send ping to: theophile.de.cazenove
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:104)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-05-05 12:06:43,864 (SarosSessionManager.java:710) error in notifying listener of session ending: 
+java.lang.NullPointerException
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:144)
+	at de.fu_berlin.inf.dpp.ui.actions.RemoveUserAction$2.sessionEnding(RemoveUserAction.java:61)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnding(SarosSessionManager.java:708)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:337)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-05-05 12:06:43,963 (SWTUtils.java:193) could not execute runnable de.fu_berlin.inf.dpp.editor.EditorManager$2$1@7162c3d9, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTSync(SWTUtils.java:194)
+	at de.fu_berlin.inf.dpp.editor.EditorManager$2.unblock(EditorManager.java:205)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.lockSession(StopManager.java:390)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.sessionStopped(StopManager.java:517)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.stop(StopManager.java:563)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.doLifecycleMethod(StartableLifecycleStrategy.java:101)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stopComponent(StartableLifecycleStrategy.java:113)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stop(StartableLifecycleStrategy.java:126)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.stop(AbstractInjectionFactory.java:88)
+	at org.picocontainer.behaviors.AbstractBehavior.stop(AbstractBehavior.java:179)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.stop(Stored.java:141)
+	at org.picocontainer.behaviors.Stored.stop(Stored.java:118)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1036)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:791)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:625)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:342)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-05-05 12:06:43,994 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.actions.StoppedAction$3@2e199625, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.actions.StoppedAction.setUnblockEnabled(StoppedAction.java:80)
+	at de.fu_berlin.inf.dpp.ui.actions.StoppedAction$1$1.setValue(StoppedAction.java:52)
+	at de.fu_berlin.inf.dpp.ui.actions.StoppedAction$1$1.setValue(StoppedAction.java:1)
+	at de.fu_berlin.inf.dpp.util.ObservableValue.setValue(ObservableValue.java:89)
+	at de.fu_berlin.inf.dpp.util.ObservableValue.setValue(ObservableValue.java:73)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.lockSession(StopManager.java:392)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.sessionStopped(StopManager.java:517)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.stop(StopManager.java:563)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.doLifecycleMethod(StartableLifecycleStrategy.java:101)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stopComponent(StartableLifecycleStrategy.java:113)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stop(StartableLifecycleStrategy.java:126)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.stop(AbstractInjectionFactory.java:88)
+	at org.picocontainer.behaviors.AbstractBehavior.stop(AbstractBehavior.java:179)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.stop(Stored.java:141)
+	at org.picocontainer.behaviors.Stored.stop(Stored.java:118)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1036)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:791)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:625)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:342)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-05-05 12:06:44,007 (SWTUtils.java:193) could not execute runnable de.fu_berlin.inf.dpp.editor.EditorManager$4$2@55b2dd28, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTSync(SWTUtils.java:194)
+	at de.fu_berlin.inf.dpp.editor.EditorManager$4.sessionEnded(EditorManager.java:330)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnded(SarosSessionManager.java:718)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:349)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-05-05 12:06:44,019 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.views.SarosView$11@298d7638, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.views.SarosView.clearNotifications(SarosView.java:644)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.HostLeftAloneInSessionHandler$1.sessionEnded(HostLeftAloneInSessionHandler.java:46)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnded(SarosSessionManager.java:718)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:349)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-05-05 12:06:44,032 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.decorators.SharedProjectDecorator$2@4b66e4bd, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectDecorator.updateDecoratorsAsync(SharedProjectDecorator.java:156)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectDecorator.access$2(SharedProjectDecorator.java:155)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectDecorator$1.sessionEnded(SharedProjectDecorator.java:93)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnded(SarosSessionManager.java:718)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:349)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-05-05 12:06:44,043 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.decorators.SharedProjectFileDecorator$4@27fb3eb0, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectFileDecorator.updateDecoratorsAsync(SharedProjectFileDecorator.java:251)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectFileDecorator.updateDecoration(SharedProjectFileDecorator.java:246)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectFileDecorator.access$2(SharedProjectFileDecorator.java:235)
+	at de.fu_berlin.inf.dpp.ui.decorators.SharedProjectFileDecorator$1.sessionEnded(SharedProjectFileDecorator.java:136)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnded(SarosSessionManager.java:718)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:349)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:333)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-05-05 12:06:44,058 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@6e0fc200, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-05-05 12:06:44,221 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@6a153488, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)

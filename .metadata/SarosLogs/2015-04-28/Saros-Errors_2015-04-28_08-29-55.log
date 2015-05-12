@@ -1,0 +1,286 @@
+WARN  2015-04-28 08:28:37,498 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 08:28:37,560 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 08:29:25,229 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 08:29:25,360 (NullSarosSession.java:64) unexpected method call
+ERROR 2015-04-28 08:29:51,457 (StunServiceImpl.java:263) error sending STUN request
+java.net.BindException: Cannot assign requested address: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-04-28 08:30:01,457 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/127.0.0.1:3478 at local address /128.179.154.74:0
+WARN  2015-04-28 08:31:12,650 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-28 08:31:13,510 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-28 08:33:55,594 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-28 08:33:55,750 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+WARN  2015-04-28 08:33:59,876 (SharedResourcesManager.java:413) Resource changed while paused:
+C(0) /
+C(0) /CS211BeerPong
+C(0) /CS211BeerPong/src
+C(0) /CS211BeerPong/src/cs211
+C(MC) /CS211BeerPong/src/cs211/ImageProcessing.java
+
+WARN  2015-04-28 08:43:21,421 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@d0b0cca
+WARN  2015-04-28 08:43:21,483 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@d0b0cca
+WARN  2015-04-28 08:43:21,577 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@d0b0cca
+WARN  2015-04-28 08:43:24,687 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@d0b0cca
+WARN  2015-04-28 08:52:29,648 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@10972322
+WARN  2015-04-28 08:52:31,967 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@5cd86fb8
+WARN  2015-04-28 08:52:39,313 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@6d81b49f
+WARN  2015-04-28 08:52:42,345 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@4c8ccb80
+WARN  2015-04-28 08:54:12,800 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@481c74c3
+WARN  2015-04-28 08:54:14,050 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@31b9db77
+WARN  2015-04-28 08:54:35,626 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@6fe5e735
+WARN  2015-04-28 08:56:10,413 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@16a43931
+WARN  2015-04-28 08:57:30,261 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@2e6e0458
+WARN  2015-04-28 08:59:04,651 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,683 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,698 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,714 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,776 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,792 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,808 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,823 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@50fb9185
+WARN  2015-04-28 08:59:04,823 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,854 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@343a6b36
+WARN  2015-04-28 08:59:04,870 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,870 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@73e85f7e
+WARN  2015-04-28 08:59:04,886 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,901 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,901 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,917 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,933 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,948 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,948 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 08:59:04,964 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@484c2e88: Bottom == 0 < Top == 129
+WARN  2015-04-28 09:14:50,869 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@4d0925e5
+ERROR 2015-04-28 09:26:25,720 (BinaryChannelConnection.java:101) SOCKS5 (direct) [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros]  network error: Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.receiveIncomingTransferObject(BinaryChannelConnection.java:239)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:234)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:92)
+ERROR 2015-04-28 09:26:27,167 (ActivitySequencer.java:535) failed to sent activities: [ViewportActivityDO(path:SPathDataObject [editorType=txt, path=src/cs211/ImageProcessing.java, projectID=1115329704], range: (162,200))]
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-04-28 09:30:45,305 (ContributionAnnotationManager.java:163) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@143eadf0
+WARN  2015-04-28 09:41:11,089 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+ERROR 2015-04-28 11:12:47,860 (DataTransferManager.java:273) [louis@saros-con.imp.fu-berlin.de/Saros] failed to send Bytestream transfer. type=ping namespace=de.fu_berlin.inf.dpp with SOCKS5 (direct):Connection reset by peer: socket write error
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendTransferDescription(BinaryChannelConnection.java:366)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:213)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:267)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:219)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:104)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-04-28 11:12:45,936 (DataTransferManager.java:273) [louis@saros-con.imp.fu-berlin.de/Saros] failed to send Bytestream transfer. type=ados namespace=de.fu_berlin.inf.dpp with SOCKS5 (direct):connection is closed
+java.io.EOFException: connection is closed
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:202)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:267)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:219)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-04-28 11:12:50,391 (ServerSessionTimeoutHandler.java:115) failed to send ping to: louis
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendTransferDescription(BinaryChannelConnection.java:366)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:213)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:267)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:219)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:104)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-04-28 11:12:50,391 (ServerSessionTimeoutHandler.java:115) failed to send ping to: theophile.de.cazenove
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:104)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-04-28 11:12:50,391 (ActivitySequencer.java:535) failed to sent activities: [ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HScrollbar.java, projectID=1115329704], hash: -941513759, length: 3310, jupiterTimestamp: [0,0])]
+java.io.EOFException: connection is closed
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:202)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:267)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:219)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-04-28 11:12:50,720 (ActivitySequencer.java:535) failed to sent activities: [ChecksumActivityDO(path: SPathDataObject [editorType=txt, path=src/cs211/HScrollbar.java, projectID=1115329704], hash: -941513759, length: 3310, jupiterTimestamp: [0,0])]
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:532)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:512)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:163)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-04-28 11:12:59,940 (SarosNet.java:95) XMPP connection error: 
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+ERROR 2015-04-28 11:13:00,050 (UserInformationHandler.java:161) failed to send user list to user: theophile.de.cazenove
+java.io.IOException: not connected to theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:209)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.UserInformationHandler.synchronizeUserList(UserInformationHandler.java:157)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.removeUser(SarosSession.java:536)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.SessionTimeoutHandler$2.run(SessionTimeoutHandler.java:109)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-04-28 11:13:00,050 (SarosNet.java:385)  new connection state == ERROR
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+WARN  2015-04-28 11:13:00,065 (UserInformationHandler.java:208) failed to synchronize user list with user(s) [theophile.de.cazenove]
+ERROR 2015-04-28 11:13:00,065 (SarosSession.java:540) could not synchronize user list properly, following users did not respond: theophile.de.cazenove
+ERROR 2015-04-28 11:13:01,456 (ConcurrentDocumentServer.java:218) unknown user in transformation result: [louis@saros-con.imp.fu-berlin.de/Saros] 
+ERROR 2015-04-28 11:13:04,871 (ConcurrentDocumentServer.java:218) unknown user in transformation result: [theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros] 
+ERROR 2015-04-28 11:13:04,886 (SarosSession.java:718) could not deserialize activity data object: ChangeColorActivityDO(source: raphael.latty@saros-con.imp.fu-berlin.de/Saros, affected: raphael.latty@saros-con.imp.fu-berlin.de/Saros, colorID: 0)
+java.lang.IllegalArgumentException: target must not be null
+	at de.fu_berlin.inf.dpp.activities.business.ChangeColorActivity.<init>(ChangeColorActivity.java:28)
+	at de.fu_berlin.inf.dpp.activities.serializable.ChangeColorActivityDataObject.getActivity(ChangeColorActivityDataObject.java:57)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:716)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-04-28 11:13:04,902 (SarosSession.java:718) could not deserialize activity data object: ChangeColorActivityDO(source: raphael.latty@saros-con.imp.fu-berlin.de/Saros, affected: louis@saros-con.imp.fu-berlin.de/Saros, colorID: 1)
+java.lang.IllegalArgumentException: target must not be null
+	at de.fu_berlin.inf.dpp.activities.business.ChangeColorActivity.<init>(ChangeColorActivity.java:28)
+	at de.fu_berlin.inf.dpp.activities.serializable.ChangeColorActivityDataObject.getActivity(ChangeColorActivityDataObject.java:57)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:716)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-04-28 17:17:03,796 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:04,072 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:05,010 (MultiUserChat.java:225) could not leave or destroy room: SAROS684548450@conference.saros-con.imp.fu-berlin.de
+java.lang.IllegalStateException: Not connected to server.
+	at org.jivesoftware.smack.XMPPConnection.sendPacket(XMPPConnection.java:491)
+	at org.jivesoftware.smackx.muc.MultiUserChat.destroy(MultiUserChat.java:708)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat.disconnect(MultiUserChat.java:221)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChatService.destroyChat(MultiUserChatService.java:161)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatRoomsComposite$3$3.run(ChatRoomsComposite.java:191)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+WARN  2015-04-28 17:17:05,412 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:05,448 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:06,860 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:06,868 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:07,445 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:07,449 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:07,469 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:07,473 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:07,588 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:07,604 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:07,782 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:07,790 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:09,916 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:09,920 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:10,356 (NullSarosSession.java:64) unexpected method call
+WARN  2015-04-28 17:17:10,360 (NullSarosSession.java:64) unexpected method call
