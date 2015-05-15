@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;qgraph&apos; in &apos;cs211.ImageProcessing&apos; to &apos;quadGraph&apos;&#x0D;&#x0A;- Original project: &apos;CS211BeerPong&apos;&#x0D;&#x0A;- Original element: &apos;cs211.ImageProcessing.qgraph&apos;&#x0D;&#x0A;- Renamed element: &apos;cs211.ImageProcessing.quadGraph&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;qgraph&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;cs211{ImageProcessing.java[ImageProcessing^qgraph" name="quadGraph" references="true" setter="false" stamp="1431696179514" textual="false" version="1.0"/>
+</session>

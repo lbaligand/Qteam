@@ -15,10 +15,14 @@ public class ImageProcessing extends PApplet {
 
 	//Global arguments
 	PImage img;
-	QuadGraph qgraph = new QuadGraph();
+	QuadGraph quadGraph = new QuadGraph();
 	PGraphics leftImage;
 	PGraphics middleImage;
 	PGraphics rightImage;
+	
+	//Global variables to enable drawing the spectra of the Hough transform
+	int rDim, phiDim;
+	int[] accumulator;
 	
 	//Arguments for binary & invertedBinary thresholds
 	int lowThreshold;
@@ -28,52 +32,59 @@ public class ImageProcessing extends PApplet {
 	HScrollbar lowThresholdBar;
 	HScrollbar highThresholdBar;
 
-	
 	public void setup() {
-		size(800, 600);
-		img = loadImage("board1.jpg");
+		
+		size(1200, 600);
+		
+		img = loadImage("board4.jpg");
 		
 		leftImage = createGraphics(100, 100);
 		middleImage = createGraphics(100, 100);
 		rightImage = createGraphics(100, 100);
 		
+		//To enable threshold bars 
 		// lowThresholdBar = new HScrollbar(this, 0, 580, 800, 20);
 		// highThresholdBar = new HScrollbar(this, 0, 540, 800, 20);
 		
-		// noLoop();
 	}
-
 	
 	public void draw() {
 		background(color(0, 0, 0));
 		
-		image(img, 0, 0);
-		hough(intensityThreshold(sobel(intensityThreshold(blur(HSBThreshold(img))))), 4);
+		PImage sobelResult = sobel(intensityThreshold(blur(HSBThreshold(img))));
 		
 		//Left image
 		leftImage.beginDraw();
 		leftImage.background(color(0, 0, 0));
-		image(img, 0, 0, width/3, 0);
-		List<PVector> lines = hough(intensityThreshold(sobel(intensityThreshold(blur(HSBThreshold(img))))), 4);
+		image(img, 0, 0);
+		List<PVector> lines = hough(intensityThreshold(sobelResult), 4);
 		ArrayList<PVector> intersections = getIntersections(lines);
 		leftImage.endDraw();
-//		
-//		//Middle image
-//		translate(100, 100);
-//		middleImage.beginDraw();
-//		middleImage.background(color(0, 0, 0));
-//		hough(intensityThreshold(sobel(intensityThreshold(blur(HSBThreshold(img))))), 0);
-//		middleImage.endDraw();
-//		
+
+		//Middle image
+		pushMatrix();
+		translate(img.width, 0);
+		middleImage.beginDraw();
+		middleImage.background(color(0, 0, 0));
+		PImage spectrum = spectraHough(rDim, phiDim, accumulator, sobelResult);
+		spectrum.resize(img.width / 2, img.height / 2);
+		image(spectrum, 0, 0);
+		middleImage.endDraw();
+		popMatrix();
+		
 		//Right image
+		pushMatrix();
+		translate(img.width, img.height / 2);
 		rightImage.beginDraw();
 		rightImage.background(color(0, 0, 0));
-		image(sobel(intensityThreshold(blur(HSBThreshold(img)))), width/3, 0);
+		sobelResult.resize(img.width / 2, img.height / 2);
+		image(sobelResult, 0, 0);
 		rightImage.endDraw();
+		popMatrix();
 		
-		//For quad graphs
-		//qgraph.build(lines, img.width, img.height);
-		//displayQuad(qgraph.findCycles(), lines);
+		//Display quad graphs (optional)
+		quadGraph.build(lines, img.width, img.height);
+		displayQuad(quadGraph.findCycles(), lines);
 		
 		//For threshold bars
 		// lowThresholdBar.display();
@@ -90,7 +101,9 @@ public class ImageProcessing extends PApplet {
 	}
 
 	public PImage binaryFilter(PImage img) {
-		PImage result = createImage(width, height, RGB);
+		
+		PImage result = createImage(img.width, img.height, RGB);
+		
 		for (int i = 0; i < img.width * img.height; i++) {
 			float currentBrightness = brightness(img.pixels[i]);
 			if (currentBrightness > lowThreshold) {
@@ -99,11 +112,15 @@ public class ImageProcessing extends PApplet {
 				result.pixels[i] = color(0);
 			}
 		}
+		
 		return result;
+		
 	}
 
 	public PImage InvertedBinaryFilter(PImage img) {
-		PImage result = createImage(width, height, RGB);
+		
+		PImage result = createImage(img.width, img.height, RGB);
+		
 		for (int i = 0; i < img.width * img.height; i++) {
 			float currentBrightness = brightness(img.pixels[i]);
 			if (currentBrightness <= lowThreshold) {
@@ -112,7 +129,9 @@ public class ImageProcessing extends PApplet {
 				result.pixels[i] = color(0);
 			}
 		}
+		
 		return result;
+		
 	}
 
 	public PImage HSBThreshold(PImage img) {
@@ -125,7 +144,8 @@ public class ImageProcessing extends PApplet {
 		float lowBright = 30;
 		float highBright = 180;
 
-		PImage hueMap = createImage(width, height, HSB);
+		PImage hueMap = createImage(img.width, img.height, HSB);
+		
 		for (int i = 0; i < img.width * img.height; i++) {
 			float currentBrightness = brightness(img.pixels[i]);
 			float currentSat = saturation(img.pixels[i]);
@@ -141,6 +161,7 @@ public class ImageProcessing extends PApplet {
 		}
 
 		return hueMap;
+		
 	}
 
 	public PImage convolute(PImage img) {
@@ -153,6 +174,7 @@ public class ImageProcessing extends PApplet {
 		int N = kernel3.length;
 
 		PImage result = createImage(img.width, img.height, ALPHA);
+		
 		for (int x = N / 2; x < img.width - N / 2; x++) {
 			for (int y = N / 2; y < img.height - N / 2; y++) {
 				for (int i = -N / 2; i <= N / 2; i++) {
@@ -197,6 +219,7 @@ public class ImageProcessing extends PApplet {
 		}
 
 		return result;
+		
 	}
 
 	public PImage intensityThreshold(PImage img) {
@@ -204,7 +227,8 @@ public class ImageProcessing extends PApplet {
 		// Intensity threshold to filter isolated pixels
 		int threshold = 128;
 
-		PImage result = createImage(width, height, HSB);
+		PImage result = createImage(img.width, img.height, HSB);
+		
 		for (int i = 0; i < img.width * img.height; i++) {
 			float currentBrightness = brightness(img.pixels[i]);
 			if (currentBrightness >= threshold) {
@@ -215,6 +239,7 @@ public class ImageProcessing extends PApplet {
 		}
 
 		return result;
+		
 	}
 
 	public PImage sobel(PImage img) {
@@ -232,9 +257,7 @@ public class ImageProcessing extends PApplet {
 		float max = 0;
 		float[] buffer = new float[img.width * img.height];
 
-		// *************************************
-		// Implement here the double convolution
-		// *************************************
+		// Double convolution
 		int N = hKernel.length;
 
 		for (int x = N / 2; x < img.width - N / 2; x++) {
@@ -266,7 +289,9 @@ public class ImageProcessing extends PApplet {
 				}
 			}
 		}
+		
 		return result;
+		
 	}
 
 	public ArrayList<PVector> getIntersections(List<PVector> lines) {
@@ -302,11 +327,12 @@ public class ImageProcessing extends PApplet {
 		float discretizationStepsR = 2.5f;
 
 		// dimensions of the accumulator
-		int phiDim = (int) (Math.PI / discretizationStepsPhi);
-		int rDim = (int) (((edgeImg.width + edgeImg.height) * 2 + 1) / discretizationStepsR);
+		phiDim = (int) (Math.PI / discretizationStepsPhi);
+		rDim = (int) (((edgeImg.width + edgeImg.height) * 2 + 1) / discretizationStepsR);
 		// our accumulator (with a 1 pix margin around)
-		int[] accumulator = new int[(phiDim + 2) * (rDim + 2)];
+		accumulator = new int[(phiDim + 2) * (rDim + 2)];
 
+		// =============================================================================
 		// Pre-compute the sin and cos values : OPTIMIZATION
 		float[] tabSin = new float[phiDim];
 		float[] tabCos = new float[phiDim];
@@ -315,11 +341,10 @@ public class ImageProcessing extends PApplet {
 		float inverseR = 1.f / discretizationStepsR;
 
 		for (int accPhi = 0; accPhi < phiDim; ang += discretizationStepsPhi, accPhi++) {
-			// we can also pre-multiply by (1/discretizationStepsR) since we
-			// need it in the Hough loop
 			tabSin[accPhi] = (float) (sin(ang) * inverseR);
 			tabCos[accPhi] = (float) (cos(ang) * inverseR);
 		}
+		// ==============================================================================
 
 		// Fill the accumulator: on edge points (ie, white pixels of the edge
 		// image), store all possible (r, phi) pairs describing lines going
@@ -328,7 +353,6 @@ public class ImageProcessing extends PApplet {
 			for (int x = 0; x < edgeImg.width; x++) {
 				if (brightness(edgeImg.pixels[y * edgeImg.width + x]) != 0) {
 					for (int phi = 0; phi < phiDim; phi++) {
-						// float realPhi = phi * discretizationStepsPhi;
 						float r = (float) (tabCos[phi] * x + tabSin[phi] * y);
 						int realR = round(r + (rDim - 1) * 0.5f);
 						accumulator[(phi + 1) * (rDim + 2) + realR]++;
@@ -339,7 +363,9 @@ public class ImageProcessing extends PApplet {
 
 		// Only search around lines with more that this amount of votes
 		int minVotes = 180;
+		
 		HoughComparator comparator = new HoughComparator(accumulator);
+		
 		ArrayList<Integer> bestCandidates = new ArrayList<Integer>();
 
 		for (int i = 0; i < accumulator.length; ++i) {
@@ -348,8 +374,12 @@ public class ImageProcessing extends PApplet {
 			}
 		}
 		
+		// ======================================================================================
+		// Local maxima : OPTIMIZATION
+		
 		// size of the region we search for a local maximum
-		int neighbourhood = 500;
+		int neighbourhood = 20;
+		
 		for (int accR = 0; accR < rDim; accR++) {
 			for (int accPhi = 0; accPhi < phiDim; accPhi++) {
 				// compute current index in the accumulator
@@ -384,29 +414,14 @@ public class ImageProcessing extends PApplet {
 			}
 
 		}
+		// ======================================================================================
 
 		Collections.sort(bestCandidates, comparator);
 		
 		ArrayList<PVector> lines = new ArrayList<PVector>();
-
 		
-		//=========================================================================
-		// Milestone 3 : Middle image
-//		PImage houghImg = createImage(rDim + 2, phiDim + 2, ALPHA);
-//		 
-//		for (int i = 0; i < accumulator.length; i++) { 
-//			houghImg.pixels[i] = color(min(255, accumulator[i])); 
-//		}
-//		 
-//		houghImg.updatePixels(); 
-//		houghImg.resize(400, 300);
-//		image(houghImg, 0, 0);
-		//========================================================================
-		
-		
-		// For each pair (r, ϕ) in the accumulator that received more that 200
-		// votes, plot the corresponding line on top
-		// of the image
+		// For each pair (r, ϕ) in the accumulator that received more that 180
+		// votes, plot the corresponding line on top of the image
 		for (int idx = 0; idx < Math.min(bestCandidates.size(), nLines); idx++) {
 
 			// first, compute back the (r, phi) polar coordinates:
@@ -414,8 +429,6 @@ public class ImageProcessing extends PApplet {
 			int accR = bestCandidates.get(idx) - (accPhi + 1) * (rDim + 2) - 1;
 			float r = (accR - (rDim - 1) * 0.5f) * discretizationStepsR;
 			float phi = accPhi * discretizationStepsPhi;
-			
-			System.out.println("line " + idx + " r : " + r + " phi : " + phi);
 
 			lines.add(new PVector(r, phi));
 
@@ -457,6 +470,22 @@ public class ImageProcessing extends PApplet {
 		return lines;
 	}
 	
+	//====================================================================================
+	// Milestone 3 : Middle image
+	public PImage spectraHough(int rDim, int phiDim, int [] accumulator, PImage edgeImg) {
+		
+				PImage houghImg = createImage(rDim + 2, phiDim + 2, ALPHA);
+				 
+				for (int i = 0; i < accumulator.length; i++) { 
+					houghImg.pixels[i] = color(min(255, accumulator[i])); 
+				}
+				 
+				houghImg.updatePixels(); 
+				
+				return houghImg;
+	}
+	//=====================================================================================
+
 	public PVector intersection(PVector line1, PVector line2) {
 		
 		// compute the intersection
@@ -471,8 +500,6 @@ public class ImageProcessing extends PApplet {
 	
 	public void displayQuad(List<int[]> quads, List<PVector> lines) {
 		
-		int idx = 0;
-		
 		for (int[] quad : quads) {
 			
 			PVector l1 = lines.get(quad[0]);
@@ -486,14 +513,8 @@ public class ImageProcessing extends PApplet {
 			PVector c41 = intersection(l4, l1);
 			
 			//Filter the quads that are not convex, too small or non flat
-			boolean isValid = (qgraph.isConvex(c12, c23, c34, c41) && 
-					qgraph.validArea(c12, c23, c34, c41, 1000000, 50000) && qgraph.nonFlatQuad(c12, c23, c34, c41));
-			
-			System.out.println("Graph " + idx);
-			System.out.println("convex : " + qgraph.isConvex(c12, c23, c34, c41));
-			System.out.println("valid area : " + qgraph.validArea(c12, c23, c34, c41, 1000000, 10000));
-			System.out.println("non flat :"+ qgraph.nonFlatQuad(c12, c23, c34, c41));
-			idx++;
+			boolean isValid = (quadGraph.isConvex(c12, c23, c34, c41) && 
+					quadGraph.validArea(c12, c23, c34, c41, 1000000, 50000) && quadGraph.nonFlatQuad(c12, c23, c34, c41));
 			
 			if(isValid) {
 				// Choose a random, semi-transparent colour

@@ -7,7 +7,6 @@ import processing.core.PVector;
 
 public class QuadGraph {
 
-
     List<int[]> cycles = new ArrayList<int[]>();
     int[][] graph;
 
@@ -101,6 +100,7 @@ public class QuadGraph {
                         {
                             int[] p = normalize(path);
                             int[] inv = invert(p);
+                            //MODIFICATION
                             //keep only the cycles of length 4
                             if (isNew(p) && isNew(inv) && p.length == 4)
                             {
@@ -259,7 +259,7 @@ public class QuadGraph {
         
         float area = Math.abs(0.5f * (i1 + i2 + i3 + i4));
         
-        System.out.println(area);
+        //System.out.println(area);
         
         boolean valid = (area < max_area && area > min_area);
    
@@ -267,33 +267,14 @@ public class QuadGraph {
         
         return valid;
    }
-  
-    /** Return the area of a Quad Graph
-     * @param c1, c2, c3, c4
-     */
-    public static float getArea(PVector c1,PVector c2,PVector c3,PVector c4) {
-    	
-    	PVector v21= PVector.sub(c1, c2);
-        PVector v32= PVector.sub(c2, c3);
-        PVector v43= PVector.sub(c3, c4);
-        PVector v14= PVector.sub(c4, c1);
-  
-        float i1=v21.cross(v32).z;
-        float i2=v32.cross(v43).z;
-        float i3=v43.cross(v14).z;
-        float i4=v14.cross(v21).z;
-        
-        float area = Math.abs(0.5f * (i1 + i2 + i3 + i4));
-        
-        return area;
-    }
     
     /** Compute the (cosine) of the four angles of the quad, and check they are all large enough
      * (the quad representing our board should be close to a rectangle)
      */
     public static boolean nonFlatQuad(PVector c1,PVector c2,PVector c3,PVector c4){
         
-        // cos(70deg) ~= 0.3
+    	//MODIFICATION :
+        // cos(60deg) ~= 0.5
         float min_cos = 0.5f;
         
         PVector v21= PVector.sub(c1, c2);
