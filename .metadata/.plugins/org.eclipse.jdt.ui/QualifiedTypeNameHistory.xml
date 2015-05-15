@@ -4,4 +4,7 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="processing.core.PVector"/>
 <fullyQualifiedTypeName name="cs211.HoughTransform"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="cs211.QuadGraph"/>
+<fullyQualifiedTypeName name="processing.core.PGraphics"/>
 </qualifiedTypeNameHistroy>

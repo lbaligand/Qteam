@@ -1,0 +1,57 @@
+INFO  2015-05-12 11:04:19,627 (Saros.java:256) Starting Saros 13.12.6 running:
+  Java Version: 1.7.0_40
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.9.0.v20130326-1255
+  Operating System: Windows 8 (6.2)
+  Hardware Architecture: amd64
+INFO  2015-05-12 11:04:19,721 (XMPPAccountStore.java:103) loaded 3 accounts
+INFO  2015-05-12 11:04:19,768 (PreferenceInitializer.java:53) initializing preference default values
+DEBUG 2015-05-12 11:04:19,784 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@502b8aa6, de.fu_berlin.inf.dpp.net.internal.IBBTransport@5a9bc168]
+DEBUG 2015-05-12 11:04:19,862 (StreamServiceManager.java:225) StreamServices added:
+  SendFile
+  AudioService
+  VideoSharing
+DEBUG 2015-05-12 11:04:20,002 (SarosAnnotation.java:112) resetting annotation colors
+WARN  2015-05-12 11:04:20,909 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-12 11:04:20,925 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-05-12 11:04:27,738 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+WARN  2015-05-12 11:04:34,801 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-12 11:04:34,833 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-05-12 11:04:39,483 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2015-05-12 11:04:39,608 (DocumentRecord.java:93) Added Node: attr(143142147960848515) name=svg
+DEBUG 2015-05-12 11:04:39,733 (SarosNet.java:423) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2015-05-12 11:04:40,187 (SarosNet.java:433) found interface addresses: [192.168.56.1, 128.179.158.167, fe80:0:0:0:ddd1:fc27:b358:fb10%4, fe80:0:0:0:1f1:8fa8:17e0:8274%13]
+DEBUG 2015-05-12 11:04:40,280 (SarosNet.java:383)  new connection state == CONNECTING
+DEBUG 2015-05-12 11:04:41,671 (SarosNet.java:383) raphael.latty@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2015-05-12 11:04:41,671 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@502b8aa6, de.fu_berlin.inf.dpp.net.internal.IBBTransport@5a9bc168]
+DEBUG 2015-05-12 11:04:41,671 (SkypeManager.java:286) Refreshing Skype username cache...
+DEBUG 2015-05-12 11:04:41,906 (DiscoveryManager.java:381) Inserted DiscoveryInfo into Cache for: louis@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2015-05-12 11:04:42,005 (DiscoveryManager.java:381) Inserted DiscoveryInfo into Cache for: theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros
+WARN  2015-05-12 11:04:50,597 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.158.167:0
+WARN  2015-05-12 11:04:50,597 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0
+DEBUG 2015-05-12 11:12:04,569 (DiscoveryManager.java:98) clearing cache entry of contact theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="urn:xmpp:ping"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/muc"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="de.fu_berlin.inf.dpp"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2015-05-12 11:48:10,968 (DiscoveryManager.java:98) clearing cache entry of contact louis@saros-con.imp.fu-berlin.de/Saros: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/ibb"/><feature var="http://jabber.org/protocol/si"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/si/profile/file-transfer"/><feature var="urn:xmpp:ping"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/muc"/><feature var="de.fu_berlin.inf.dpp"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2015-05-12 11:59:56,342 (DiscoveryManager.java:381) Inserted DiscoveryInfo into Cache for: theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros
+WARN  2015-05-12 12:08:13,455 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-12 12:08:13,721 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-05-12 12:08:14,502 (SarosNet.java:383) raphael.latty@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+WARN  2015-05-12 12:08:14,533 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@4e5d4fe9, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2015-05-12 12:08:14,752 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+WARN  2015-05-12 12:08:14,752 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@84c2b6c, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2015-05-12 12:08:14,768 (UPnPServiceImpl.java:295) deleting existing port mappings
