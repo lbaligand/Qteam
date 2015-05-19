@@ -7,6 +7,7 @@ import java.util.Random;
 import java.lang.Math;
 
 import processing.core.PApplet;
+import processing.video.Capture;
 import processing.core.PGraphics;
 import processing.core.PImage;
 import processing.core.PVector;
@@ -31,16 +32,23 @@ public class ImageProcessing extends PApplet {
 	//Arguments for threshold bars
 	HScrollbar lowThresholdBar;
 	HScrollbar highThresholdBar;
+	
+	Capture cam;
 
 	public void setup() {
 		
-		size(1200, 600);
+		size(640, 480);
 		
-		img = loadImage("board4.jpg");
+		cam = new Capture(this, 640, 480);
+		cam.start();
 		
-		leftImage = createGraphics(100, 100);
-		middleImage = createGraphics(100, 100);
-		rightImage = createGraphics(100, 100);
+		//camera = new HoughTransform();
+		
+		//img = loadImage("board4.jpg");
+		
+//		leftImage = createGraphics(100, 100);
+//		middleImage = createGraphics(100, 100);
+//		rightImage = createGraphics(100, 100);
 		
 		//To enable threshold bars 
 		// lowThresholdBar = new HScrollbar(this, 0, 580, 800, 20);
@@ -51,40 +59,49 @@ public class ImageProcessing extends PApplet {
 	public void draw() {
 		background(color(0, 0, 0));
 		
+		if (cam.available() == true) {
+			cam.read();
+		}
+		img = cam.get();
+		
 		PImage sobelResult = sobel(intensityThreshold(blur(HSBThreshold(img))));
 		
-		//Left image
-		leftImage.beginDraw();
-		leftImage.background(color(0, 0, 0));
 		image(img, 0, 0);
 		List<PVector> lines = hough(intensityThreshold(sobelResult), 4);
 		ArrayList<PVector> intersections = getIntersections(lines);
-		leftImage.endDraw();
-
-		//Middle image
-		pushMatrix();
-		translate(img.width, 0);
-		middleImage.beginDraw();
-		middleImage.background(color(0, 0, 0));
-		PImage spectrum = spectraHough(rDim, phiDim, accumulator, sobelResult);
-		spectrum.resize(img.width / 2, img.height / 2);
-		image(spectrum, 0, 0);
-		middleImage.endDraw();
-		popMatrix();
 		
-		//Right image
-		pushMatrix();
-		translate(img.width, img.height / 2);
-		rightImage.beginDraw();
-		rightImage.background(color(0, 0, 0));
-		sobelResult.resize(img.width / 2, img.height / 2);
-		image(sobelResult, 0, 0);
-		rightImage.endDraw();
-		popMatrix();
-		
-		//Display quad graphs (optional)
-		quadGraph.build(lines, img.width, img.height);
-		displayQuad(quadGraph.findCycles(), lines);
+//		//Left image
+//		leftImage.beginDraw();
+//		leftImage.background(color(0, 0, 0));
+//		image(img, 0, 0);
+//		List<PVector> lines = hough(intensityThreshold(sobelResult), 4);
+//		ArrayList<PVector> intersections = getIntersections(lines);
+//		leftImage.endDraw();
+//
+//		//Middle image
+//		pushMatrix();
+//		translate(img.width, 0);
+//		middleImage.beginDraw();
+//		middleImage.background(color(0, 0, 0));
+//		PImage spectrum = spectraHough(rDim, phiDim, accumulator, sobelResult);
+//		spectrum.resize(img.width / 2, img.height / 2);
+//		image(spectrum, 0, 0);
+//		middleImage.endDraw();
+//		popMatrix();
+//		
+//		//Right image
+//		pushMatrix();
+//		translate(img.width, img.height / 2);
+//		rightImage.beginDraw();
+//		rightImage.background(color(0, 0, 0));
+//		sobelResult.resize(img.width / 2, img.height / 2);
+//		image(sobelResult, 0, 0);
+//		rightImage.endDraw();
+//		popMatrix();
+//		
+//		//Display quad graphs (optional)
+//		quadGraph.build(lines, img.width, img.height);
+//		displayQuad(quadGraph.findCycles(), lines);
 		
 		//For threshold bars
 		// lowThresholdBar.display();

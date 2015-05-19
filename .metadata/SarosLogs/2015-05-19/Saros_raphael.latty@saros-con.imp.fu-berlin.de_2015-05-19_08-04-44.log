@@ -1,0 +1,80 @@
+INFO  2015-05-19 08:03:48,521 (Saros.java:256) Starting Saros 13.12.6 running:
+  Java Version: 1.7.0_40
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.9.0.v20130326-1255
+  Operating System: Windows 8 (6.2)
+  Hardware Architecture: amd64
+INFO  2015-05-19 08:03:48,693 (XMPPAccountStore.java:103) loaded 3 accounts
+INFO  2015-05-19 08:03:48,771 (PreferenceInitializer.java:53) initializing preference default values
+DEBUG 2015-05-19 08:03:48,912 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@7fa42c71, de.fu_berlin.inf.dpp.net.internal.IBBTransport@7361f02e]
+DEBUG 2015-05-19 08:03:49,052 (StreamServiceManager.java:225) StreamServices added:
+  SendFile
+  AudioService
+  VideoSharing
+DEBUG 2015-05-19 08:03:49,312 (SarosAnnotation.java:112) resetting annotation colors
+WARN  2015-05-19 08:03:50,781 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-19 08:03:51,031 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-05-19 08:04:02,934 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+WARN  2015-05-19 08:04:18,805 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-19 08:04:18,897 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-05-19 08:04:34,986 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2015-05-19 08:04:35,377 (DocumentRecord.java:93) Added Node: attr(143201547536149086) name=svg
+DEBUG 2015-05-19 08:04:38,784 (SarosNet.java:423) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2015-05-19 08:04:39,269 (SarosNet.java:433) found interface addresses: [192.168.56.1, 128.179.155.60, fe80:0:0:0:ddd1:fc27:b358:fb10%4, fe80:0:0:0:1f1:8fa8:17e0:8274%13]
+DEBUG 2015-05-19 08:04:39,534 (SarosNet.java:383)  new connection state == CONNECTING
+DEBUG 2015-05-19 08:04:44,441 (SarosNet.java:383) raphael.latty@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2015-05-19 08:04:44,441 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@7fa42c71, de.fu_berlin.inf.dpp.net.internal.IBBTransport@7361f02e]
+DEBUG 2015-05-19 08:04:44,441 (SkypeManager.java:286) Refreshing Skype username cache...
+WARN  2015-05-19 08:04:49,880 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0
+WARN  2015-05-19 08:04:49,880 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.155.60:0
+ERROR 2015-05-19 08:22:13,139 (SarosNet.java:95) XMPP connection error: 
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+ERROR 2015-05-19 09:05:40,430 (SarosNet.java:385)  new connection state == ERROR
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+DEBUG 2015-05-19 09:05:40,445 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+DEBUG 2015-05-19 10:34:28,651 (IconUtils.java:198) color: RGB {255, 255, 255}
+DEBUG 2015-05-19 10:34:28,682 (IconUtils.java:209) create foreground icon with color RGB {0, 0, 0}
