@@ -109,6 +109,7 @@ public class TangibleGame extends PApplet {
 				
 			}
 			
+			
 			// Clamp if necessary
 			if (rx > PI / 3) {
 				rx = PI / 3;

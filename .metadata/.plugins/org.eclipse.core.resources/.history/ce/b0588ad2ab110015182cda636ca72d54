@@ -93,21 +93,18 @@ public class TangibleGame extends PApplet {
 		translate(width / 2, height / 2, 0);
 
 		if (!cylinderMode) {
-			/* MILESTONE 4 */
 			if (camera.available()) {
 				camera.read();
-				PImage currentImg = camera.get();
-				currentImg.resize(200, 160);
-				image(currentImg, width / 2 - 200, - height / 2);
-				
-				// Get the plate's rotation from the ImageProcessing module
-				PVector currentRotation = videoProcessor.getPlateRotation(currentImg);
-				if(currentRotation != null) {
-					rx = currentRotation.x;
-					rz = currentRotation.y;
-				}
-				
 			}
+			PImage currentImg = camera.get();
+			// Get the plate's rotation from the ImageProcessing module
+			PVector currentRotation = videoProcessor.getPlateRotation(currentImg);
+			if(currentRotation != null) {
+				rx = currentRotation.x;
+				rz = currentRotation.y;
+			}
+			//currentImg.resize(150, 150);
+			image(currentImg, 450, 450);
 			
 			// Clamp if necessary
 			if (rx > PI / 3) {

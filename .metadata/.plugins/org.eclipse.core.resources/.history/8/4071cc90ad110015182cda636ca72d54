@@ -99,15 +99,14 @@ public class TangibleGame extends PApplet {
 				PImage currentImg = camera.get();
 				currentImg.resize(200, 160);
 				image(currentImg, width / 2 - 200, - height / 2);
-				
 				// Get the plate's rotation from the ImageProcessing module
 				PVector currentRotation = videoProcessor.getPlateRotation(currentImg);
 				if(currentRotation != null) {
 					rx = currentRotation.x;
 					rz = currentRotation.y;
 				}
-				
 			}
+			
 			
 			// Clamp if necessary
 			if (rx > PI / 3) {

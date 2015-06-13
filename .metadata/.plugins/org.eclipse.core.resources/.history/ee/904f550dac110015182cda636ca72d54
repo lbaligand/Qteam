@@ -128,7 +128,6 @@ public class ImageProcessing extends PApplet{
 	public PImage binaryFilter(PImage img) {
 		
 		PImage result = createImage(img.width, img.height, RGB);
-		result.loadPixels();
 		
 		for (int i = 0; i < img.width * img.height; i++) {
 			float currentBrightness = brightness(img.pixels[i]);
@@ -139,7 +138,6 @@ public class ImageProcessing extends PApplet{
 			}
 		}
 		
-		result.updatePixels();
 		return result;
 		
 	}
@@ -576,9 +574,8 @@ public class ImageProcessing extends PApplet{
 	 */
 	@SuppressWarnings("static-access")
 	public PVector getPlateRotation(PImage inputImg) {
-		// Initialize the current object
-		this.init();
 		
+		this.init();
 		// Apply Sobel's Algorithm to the input image
 		PImage sobelOutput = sobel(intensityThreshold(blur(HSBThreshold(inputImg))));
 		
@@ -586,8 +583,7 @@ public class ImageProcessing extends PApplet{
 		List<PVector> lines = hough(intensityThreshold(sobelOutput), 4);
 		List<PVector> intersections = getIntersections(lines, inputImg.width, inputImg.height);
 		
-		// If the edge detection was properly done
-		if(intersections.size() >= 4) {
+		if(intersections.size() == 4) {
 			intersections = adapter.sortCorners(intersections);
 			return adapter.get3DRotations(intersections);
 		}

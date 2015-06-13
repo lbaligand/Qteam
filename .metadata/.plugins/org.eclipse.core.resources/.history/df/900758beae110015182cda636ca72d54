@@ -586,7 +586,6 @@ public class ImageProcessing extends PApplet{
 		List<PVector> lines = hough(intensityThreshold(sobelOutput), 4);
 		List<PVector> intersections = getIntersections(lines, inputImg.width, inputImg.height);
 		
-		// If the edge detection was properly done
 		if(intersections.size() >= 4) {
 			intersections = adapter.sortCorners(intersections);
 			return adapter.get3DRotations(intersections);
