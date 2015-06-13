@@ -13,4 +13,5 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="tangiblegame.ImageProcessing"/>
 <fullyQualifiedTypeName name="processing.core.PVector"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
 </qualifiedTypeNameHistroy>

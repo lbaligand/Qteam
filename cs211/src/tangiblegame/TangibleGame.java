@@ -21,7 +21,7 @@ public class TangibleGame extends PApplet {
 	float speed = 1.0f;
 
 	// Ball
-	Mover mover;																// MODIF A FAIRE
+	Mover mover;
 	int sphereRadius = 15;
 
 	// CylinderMode parameters
@@ -32,15 +32,19 @@ public class TangibleGame extends PApplet {
 	int panelHeight;
 	PGraphics dataBackGround;
 	PGraphics topView;
-	PGraphics scoreboard;														//UNIMPLEMENTED
+	PGraphics scoreboard;
 	
 	// Object visualization
-	int treeBaseSize;															// MODIF A FAIRE
-	PShape tree;
-	ArrayList<PVector> trees;
+	int beerBaseSize;
+	PShape beer;
+	ArrayList<PVector> beers;
 	
-	Capture camera;
+	//Capture camera;
 	
+	/* MILESTONE 4 */
+	Movie camera;	
+	PImage currentImg;
+	PImage backgroundImg;
 	ImageProcessing videoProcessor;
 
 	public void setup() {
@@ -49,7 +53,7 @@ public class TangibleGame extends PApplet {
 		stroke(0);
 
 		// Ball
-		mover = new Mover(boxDepth, sphereRadius);								//MODIF A FAIRE !!
+		mover = new Mover(boxDepth, sphereRadius);
 
 		// Panel & Data visualization
 		panelHeight = 100;
@@ -60,14 +64,20 @@ public class TangibleGame extends PApplet {
 				P2D);
 
 		// Objects
-		treeBaseSize = 20;														//MODIF A FAIRE !!
-		tree = loadShape("simpleTree.obj");
-		tree.scale(50);
-		trees = new ArrayList<>();
+		beerBaseSize = 17;
+		beer = loadShape("Beer.obj");
+		beer.scale(17);
+		beers = new ArrayList<>();
 
 		// Capture the current webcam output
-		camera = new Capture(this, 640, 480);
-		camera.start();
+		//camera = new Capture(this, 640, 480);
+		//camera.start();
+		
+		/* MILESTONE 4 */
+		camera = new Movie(this, "testvideo.mp4");
+		camera.loop();
+		
+		backgroundImg = loadImage("beer-man.jpg");
 		
 		videoProcessor = new ImageProcessing();
 		videoProcessor.setup();
@@ -77,12 +87,11 @@ public class TangibleGame extends PApplet {
 		
 		// Environment settings
 		lights();
-		background(141, 182, 205);
+		backgroundImg.resize(width, height);
+		background(backgroundImg);
 		fill(255, 250, 205);
 		
 		// Data visualization surfaces
-		drawBackGround();
-		image(dataBackGround, 0, 500);
 		drawTopView();
 		image(topView, panelHeight / 10, height - panelHeight + panelHeight
 				/ 10);
@@ -95,18 +104,21 @@ public class TangibleGame extends PApplet {
 		if (!cylinderMode) {
 			/* MILESTONE 4 */
 			if (camera.available()) {
+				// Get the camera output
 				camera.read();
 				PImage currentImg = camera.get();
-				currentImg.resize(200, 160);
-				image(currentImg, width / 2 - 200, - height / 2);
 				
 				// Get the plate's rotation from the ImageProcessing module
+				// and rotate accordingly
 				PVector currentRotation = videoProcessor.getPlateRotation(currentImg);
 				if(currentRotation != null) {
 					rx = currentRotation.x;
 					rz = currentRotation.y;
 				}
 				
+				// Resize & draw the current video stream
+				currentImg.resize(160, 120);
+				image(currentImg, width / 2 - 160, - height / 2);
 			}
 			
 			// Clamp if necessary
@@ -128,18 +140,18 @@ public class TangibleGame extends PApplet {
 			pushMatrix();
 			mover.update(rx, rz);
 			mover.checkEdges(boxLength);
-			mover.checkCylinderCollision(trees, treeBaseSize, boxDepth);
+			mover.checkCylinderCollision(beers, beerBaseSize, boxDepth);
 			translate(mover.getX(), -(boxDepth / 2 + sphereRadius),
 					mover.getZ());
 			mover.display();
 			popMatrix();
 
 			// Draw all the added objects on the plate
-			for (PVector t : trees) {
+			for (PVector b : beers) {
 				pushMatrix();
 				rotate(PI);
-				translate(-t.x, -boxDepth / 2, t.y);
-				shape(tree);
+				translate(-b.x, -boxDepth / 2, b.y);
+				shape(beer);
 				popMatrix();
 			}
 
@@ -164,7 +176,7 @@ public class TangibleGame extends PApplet {
 			rotate(PI);
 			translate(-mouseX + (width / 2), -boxDepth / 2, mouseY
 					- (height / 2));
-			shape(tree);
+			shape(beer);
 			popMatrix();
 			
 			/* If a click occurs, add a new object on the plate at that position
@@ -172,29 +184,28 @@ public class TangibleGame extends PApplet {
 			 *  if so, do not place it
 			 */
 			if (isClicked) {
-				if ((-mouseX + (width / 2) >= (-boxLength / 2 + treeBaseSize / 2))
-						&& (-mouseX + (width / 2) <= (boxLength / 2 - treeBaseSize / 2))
-						&& (mouseY - (height / 2) <= (boxLength / 2 - treeBaseSize / 2))
-						&& (mouseY - (height / 2) >= (-boxLength / 2 + treeBaseSize / 2))) {
-					trees.add(new PVector(mouseX - width / 2, mouseY - height
+				if ((-mouseX + (width / 2) >= (-boxLength / 2 + beerBaseSize / 2))
+						&& (-mouseX + (width / 2) <= (boxLength / 2 - beerBaseSize / 2))
+						&& (mouseY - (height / 2) <= (boxLength / 2 - beerBaseSize / 2))
+						&& (mouseY - (height / 2) >= (-boxLength / 2 + beerBaseSize / 2))) {
+					beers.add(new PVector(mouseX - width / 2, mouseY - height
 							/ 2));
 				}
 				isClicked = false;
 			}
 			
 			// Display the added objects on the plate
-			for (PVector t : trees) {
+			for (PVector b : beers) {
 				pushMatrix();
 				rotate(PI);
-				translate(-t.x, -boxDepth / 2, t.y);
-				shape(tree);
+				translate(-b.x, -boxDepth / 2, b.y);
+				shape(beer);
 				popMatrix();
 			}
 			popMatrix();
 
 			popMatrix();
 		}
-
 	}
 
 	// To switch to the add-cylinder Mode if the key SHIFT is pressed
@@ -265,14 +276,14 @@ public class TangibleGame extends PApplet {
 		topView.fill(139, 10, 90);
 		topView.ellipse(ballPanelX, ballPanelY, ballPanelWidth, ballPanelWidth);
 
-		for (PVector t : trees) {
+		for (PVector t : beers) {
 			float cylinderPanelX = map(t.x, -boxLength / 2, boxLength / 2, 0,
 					8 * panelHeight / 10); // MODIF : CYLINDER -> TREE
 			float cylinderPanelY = map(t.y, -boxLength / 2, boxLength / 2, 0,
 					8 * panelHeight / 10);
-			float cylinderPanelBaseSize = map(2 * treeBaseSize, 0, boxLength,
+			float cylinderPanelBaseSize = map(2 * beerBaseSize, 0, boxLength,
 					0, 8 * panelHeight / 10);
-			topView.fill(0, 139, 0);
+			topView.fill(139, 69, 19);
 			topView.ellipse(cylinderPanelX, cylinderPanelY,
 					cylinderPanelBaseSize, cylinderPanelBaseSize);
 		}

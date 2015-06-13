@@ -9,6 +9,7 @@ import java.util.Random;
 import processing.core.PApplet;
 import processing.core.PImage;
 import processing.video.Capture;
+import processing.video.Movie;
 import processing.core.PGraphics;
 import processing.core.PVector;
 
@@ -36,19 +37,27 @@ public class ImageProcessing extends PApplet{
 	HScrollbar highThresholdBar;
 	
 	Capture cam;
+	Movie camera;
 
 	public void setup() {
 		
+		/* Commented for MILESTONE 4
 		//size(640, 480);
 		
-		//cam = new Capture(this, 640, 480);
-		//cam.start();
+		//For camera
+		cam = new Capture(this, 640, 480);
+		cam.start();
+		
+		// For milestone 4 video
+		//camera = new Movie(this, "testvideo.mp4");
+		//camera.loop();
+		 * */
 		
 		adapter = new TwoDThreeD(640, 480);
 
 		/* =========================================================
 		 * MILESTONE 3:
-		img = loadImage("board1.jpg");
+		//img = loadImage("board1.jpg");
 		
 		leftImage = createGraphics(100, 100);
 		middleImage = createGraphics(100, 100);
@@ -63,14 +72,19 @@ public class ImageProcessing extends PApplet{
 	}
 	
 	public void draw() {
-		background(color(0, 0, 0));
-
-//		if(cam.available() == true) {
-//			cam.read();
-//		}
-//		img = cam.get();
-//		
-//		image(img, 0, 0);
+		/* Commented for MILESTONE 4
+		 * background(color(0, 0, 0));
+		
+		if(camera.available() == true) {
+			camera.read();
+		}
+		PImage img = camera.get();
+		PImage sobelResult = sobel(intensityThreshold(blur(HSBThreshold(img))));
+		
+		image(img, 0, 0);
+		
+		List<PVector> lines = hough(intensityThreshold(sobelResult), 4);
+		List<PVector> intersections = getIntersections(lines, img.width, img.height); */
 		
 		/* =====================================================================
 		 * MILESTONE 3 :
@@ -81,7 +95,7 @@ public class ImageProcessing extends PApplet{
 		leftImage.background(color(0, 0, 0));
 		image(img, 0, 0);
 		List<PVector> lines = hough(intensityThreshold(sobelResult), 4);
-		intersections = getIntersections(lines, img.width, img.height);
+		List<PVector> intersections = getIntersections(lines, img.width, img.height);
 		leftImage.endDraw();
 
 		// Middle image
@@ -166,12 +180,13 @@ public class ImageProcessing extends PApplet{
 	public PImage HSBThreshold(PImage img) {
 
 		// Threshold values (low & high) for hue, saturation & brightness.
-		float lowSat = 70;
-		float highSat = 255;
-		float lowHue = 90;
-		float highHue = 140;
-		float lowBright = 30;
-		float highBright = 180;
+		// (values on the right are old values)
+		float lowSat = 100;		//100	//70
+		float highSat = 255;	//255	//255
+		float lowHue = 90;		//90	//90
+		float highHue = 127;	//127	//140
+		float lowBright = 50;	//50	//30
+		float highBright = 230; //230	//180
 
 		PImage hueMap = createImage(img.width, img.height, HSB);
 		hueMap.loadPixels();
@@ -206,6 +221,7 @@ public class ImageProcessing extends PApplet{
 		int N = kernel3.length;
 
 		PImage result = createImage(img.width, img.height, ALPHA);
+		result.loadPixels();
 		
 		for (int x = N / 2; x < img.width - N / 2; x++) {
 			for (int y = N / 2; y < img.height - N / 2; y++) {
@@ -223,6 +239,7 @@ public class ImageProcessing extends PApplet{
 			}
 		}
 
+		result.updatePixels();
 		return result;
 	}
 
@@ -234,6 +251,8 @@ public class ImageProcessing extends PApplet{
 		int N = blur.length;
 
 		PImage result = createImage(img.width, img.height, ALPHA);
+		result.loadPixels();
+		
 		for (int x = N / 2; x < img.width - N / 2; x++) {
 			for (int y = N / 2; y < img.height - N / 2; y++) {
 				for (int i = -N / 2; i <= N / 2; i++) {
@@ -250,6 +269,7 @@ public class ImageProcessing extends PApplet{
 			}
 		}
 
+		result.updatePixels();
 		return result;
 		
 	}
@@ -260,6 +280,7 @@ public class ImageProcessing extends PApplet{
 		int threshold = 128;
 
 		PImage result = createImage(img.width, img.height, HSB);
+		result.loadPixels();
 		
 		for (int i = 0; i < img.width * img.height; i++) {
 			float currentBrightness = brightness(img.pixels[i]);
@@ -270,6 +291,7 @@ public class ImageProcessing extends PApplet{
 			}
 		}
 
+		result.updatePixels();
 		return result;
 		
 	}
@@ -347,11 +369,9 @@ public class ImageProcessing extends PApplet{
 					intersections.add(new PVector(x, y));
 				}
 
-				/* MILESTONE 4 : DOES NOT DRAW THE INTERSECTIONS
 				// draw the intersection
 				fill(255, 128, 0);
 				ellipse(x, y, 10, 10);
-				*/
 			}
 		}
 
@@ -485,7 +505,6 @@ public class ImageProcessing extends PApplet{
 			int y3 = edgeImg.width;
 			int x3 = (int) (-(y3 - r / sin(phi)) * (sin(phi) / cos(phi)));
 
-			/* MILESTONE 4 : DOES NOT PLOT THE LINES
 			// Finally, plot the lines
 			stroke(204, 102, 0);
 			if (y0 > 0) {
@@ -504,7 +523,6 @@ public class ImageProcessing extends PApplet{
 				} else
 					line(x2, y2, x3, y3);
 			}
-			*/
 		}
 
 		return lines;
@@ -525,7 +543,6 @@ public class ImageProcessing extends PApplet{
 				
 				return houghImg;
 	}
-
 
 	public PVector intersection(PVector line1, PVector line2) {
 		
@@ -593,6 +610,6 @@ public class ImageProcessing extends PApplet{
 		}
 		
 		return null;
-		
 	}
+	
 }

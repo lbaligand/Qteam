@@ -44,6 +44,7 @@ public class HScrollbar {
 	/**
 	 * @brief Updates the state of the scrollbar according to the mouse movement
 	 */
+	@SuppressWarnings("static-access")
 	void update() {
 		if (isMouseOver()) {
 			mouseOver = true;
@@ -78,6 +79,7 @@ public class HScrollbar {
 	 * 
 	 * @return val clamped into the interval [minVal, maxVal]
 	 */
+	@SuppressWarnings("static-access")
 	float constrain(float val, float minVal, float maxVal) {
 		return parent.min(parent.max(val, minVal), maxVal);
 	}

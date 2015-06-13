@@ -1,25 +1,26 @@
 package tangiblegame;
 
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
+import java.util.Comparator;
 
 import processing.core.PVector;
+
 import papaya.*;
 
 public class TwoDThreeD {
 
-	// default focal length, well suited for most webcams
+	// Default focal length, well suited for most webcams
 	static float f = 700;
 
-	// intrisic camera matrix
+	// Intrisic camera matrix
 	static float[][] K = { { f, 0, 0 }, { 0, f, 0 }, { 0, 0, 1 } };
 
 	// Real physical coordinates of the Lego board in mm
-	// static float boardSize = 380.f; // large Duplo board
-	static float boardSize = 255.f; // smaller Lego board
+	static float boardSize = 380.f; // large Duplo board
+	// static float boardSize = 255.f; // smaller Lego board
 
-	// the 3D coordinates of the physical board corners, clockwise
+	// 3D coordinates of the physical board corners, clockwise
 	static float[][] physicalCorners = {
 			// Store here the 3D coordinates of the corners of
 			// the real Lego board, in homogenous coordinates
@@ -81,7 +82,6 @@ public class TwoDThreeD {
 		for (int i = 0; i < 4; i++) {
 			// store in projectedCorners the result of (K^(-1) · p), for each
 			// corner p found in the webcam image.
-			// You can use Mat.multiply to multiply a matrix with a vector.
 			PVector currentCorner = points2D.get(i);
 			float[] projectedPoint = {currentCorner.x, currentCorner.y, 1.f};
 			projectedCorners[i] = Mat.multiply(invK, projectedPoint);
@@ -207,8 +207,6 @@ public class TwoDThreeD {
 		
 		// Re-order the corners so that the first one is the closest to the
 		// origin (0,0) of the image.
-		//
-		// You can use Collections.rotate to shift the corners inside the quad.
 		for(int i = 0; i < quad.size(); ++i) {
 			if(quad.get(i).dist(origin) < minDist) {
 				minDist = quad.get(i).dist(origin);

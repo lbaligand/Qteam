@@ -1,0 +1,604 @@
+package tangiblegame;
+
+import processing.core.*;
+import processing.event.*;
+import processing.video.*;
+
+import java.util.ArrayList;
+
+@SuppressWarnings("serial")
+public class TangibleGame extends PApplet {
+
+	// Parameters for the plate
+	int boxLength = 300;
+	int boxDepth = 5;
+
+	// Axis angles (X, Z)
+	float rx = 0.0f;
+	float rz = 0.0f;
+
+	// Rotation speed
+	float speed = 1.0f;
+
+	// Ball
+	Mover mover;
+	int sphereRadius = 15;
+
+	// CylinderMode parameters
+	boolean cylinderMode = false;
+	boolean isClicked = false;
+
+	// Data visualization surfaces
+	int panelHeight;
+	PGraphics dataBackGround;
+	PGraphics topView;
+	PGraphics scoreboard;
+	
+	// Object visualization
+	int beerBaseSize;
+	PShape beer;
+	ArrayList<PVector> beers;
+	
+	//Capture camera;
+	
+	/* MILESTONE 4 */
+	Movie camera;	
+	PImage currentImg;
+	PImage backgroundImg;
+	ImageProcessing videoProcessor;
+
+	public void setup() {
+		// Setup
+		size(700, 700, P3D);
+		stroke(0);
+
+		// Ball
+		mover = new Mover(boxDepth, sphereRadius);								//MODIF A FAIRE !!
+
+		// Panel & Data visualization
+		panelHeight = 100;
+		dataBackGround = createGraphics(width, panelHeight, P2D);
+		topView = createGraphics(8 * panelHeight / 10, 8 * panelHeight / 10,
+				P2D);
+		scoreboard = createGraphics(8 * panelHeight / 10, 8 * panelHeight / 10,
+				P2D);
+
+		// Objects
+		beerBaseSize = 20;														//MODIF A FAIRE !!
+		beer = loadShape("Beer.obj");
+		beer.scale(17);
+		beers = new ArrayList<>();
+
+		// Capture the current webcam output
+		//camera = new Capture(this, 640, 480);
+		//camera.start();
+		
+		/* MILESTONE 4 */
+		camera = new Movie(this, "testvideo.mp4");
+		camera.loop();
+		
+		backgroundImg = loadImage("beer-man.jpg");
+		
+		videoProcessor = new ImageProcessing();
+		videoProcessor.setup();
+	}
+
+	public void draw() {
+		
+		// Environment settings
+		lights();
+		backgroundImg.resize(width, height);
+		background(backgroundImg);
+		
+		//background(141, 182, 205);
+		
+		fill(255, 250, 205);
+		
+		// Data visualization surfaces
+		
+		//drawBackGround();
+		//image(dataBackGround, 0, 500);
+		
+		drawTopView();
+		image(topView, panelHeight / 10, height - panelHeight + panelHeight
+				/ 10);
+		drawScoreBoard();
+		image(scoreboard, panelHeight, height - panelHeight + panelHeight / 10);
+		
+		fill(0, 100, 0);
+		translate(width / 2, height / 2, 0);
+
+		if (!cylinderMode) {
+			/* MILESTONE 4 */
+			if (camera.available()) {
+				// Get the camera output
+				camera.read();
+				PImage currentImg = camera.get();
+				
+				// Get the plate's rotation from the ImageProcessing module
+				// and rotate accordingly
+				PVector currentRotation = videoProcessor.getPlateRotation(currentImg);
+				if(currentRotation != null) {
+					rx = currentRotation.x;
+					rz = currentRotation.y;
+				}
+				
+				// Resize & draw the current video stream
+				currentImg.resize(160, 120);
+				image(currentImg, width / 2 - 160, - height / 2);
+			}
+			
+			// Clamp if necessary
+			if (rx > PI / 3) {
+				rx = PI / 3;
+			} else if (rx < -PI / 3) {
+				rx = -PI / 3;
+			}
+			if (rz > PI / 3) {
+				rz = PI / 3;
+			} else if (rz < -PI / 3) {
+				rz = -PI / 3;
+			}
+			rotateX(rx);
+			rotateZ(rz);
+			box(boxLength, boxDepth, boxLength);
+
+			// Draw the ball on the plate
+			pushMatrix();
+			mover.update(rx, rz);
+			mover.checkEdges(boxLength);
+			mover.checkCylinderCollision(beers, beerBaseSize, boxDepth);
+			translate(mover.getX(), -(boxDepth / 2 + sphereRadius),
+					mover.getZ());
+			mover.display();
+			popMatrix();
+
+			// Draw all the added objects on the plate
+			for (PVector t : beers) {
+				pushMatrix();
+				rotate(PI);
+				translate(-t.x, -boxDepth / 2, t.y);
+				shape(beer);
+				popMatrix();
+			}
+
+		} else {
+			pushMatrix();
+			// Displays the setup for add-cylinder Mode
+			rotateX(-PI / 2);
+			box(boxLength, boxDepth, boxLength);
+
+			// Displays the ball
+			pushMatrix();
+			fill(120, 150, 50);
+			translate(mover.getX(), -(boxDepth + sphereRadius), mover.getZ());
+			mover.display();
+			popMatrix();
+
+			// Add objects on the plate
+			pushMatrix();
+
+			// Display the current object
+			pushMatrix();
+			rotate(PI);
+			translate(-mouseX + (width / 2), -boxDepth / 2, mouseY
+					- (height / 2));
+			shape(beer);
+			popMatrix();
+			
+			/* If a click occurs, add a new object on the plate at that position
+			 *  Check if the object is beyond the edges of the plate and
+			 *  if so, do not place it
+			 */
+			if (isClicked) {
+				if ((-mouseX + (width / 2) >= (-boxLength / 2 + beerBaseSize / 2))
+						&& (-mouseX + (width / 2) <= (boxLength / 2 - beerBaseSize / 2))
+						&& (mouseY - (height / 2) <= (boxLength / 2 - beerBaseSize / 2))
+						&& (mouseY - (height / 2) >= (-boxLength / 2 + beerBaseSize / 2))) {
+					beers.add(new PVector(mouseX - width / 2, mouseY - height
+							/ 2));
+				}
+				isClicked = false;
+			}
+			
+			// Display the added objects on the plate
+			for (PVector t : beers) {
+				pushMatrix();
+				rotate(PI);
+				translate(-t.x, -boxDepth / 2, t.y);
+				shape(beer);
+				popMatrix();
+			}
+			popMatrix();
+
+			popMatrix();
+		}
+	}
+
+	
+
+	// To switch to the add-cylinder Mode if the key SHIFT is pressed
+	public void keyPressed() {
+		if (key == CODED) {
+			if (keyCode == SHIFT) {
+				// Activate add-cylinder Mode
+				cylinderMode = true;
+			}
+		}
+	}
+
+	// To recover from add-cylinder Mode
+	public void keyReleased() {
+		if (key == CODED) {
+			if (keyCode == SHIFT) {
+				cylinderMode = false;
+			}
+		}
+	}
+
+	// Tilt the plate around x & z axis if the mouse is Pressed, according to
+	// the speed
+	// Note: we do not limit the mouseX and mouseY to the display window
+	public void mouseDragged() {
+		rx = map(mouseY, 0, height, PI / 3, -PI / 3) * speed;
+		rz = map(mouseX, 0, width, PI / 3, -PI / 3) * speed;
+	}
+
+	// Increment/Decrement the speed of rotation via the wheel
+	public void mouseWheel(MouseEvent event) {
+		float e = event.getCount();
+		if (e > 0) {
+			if (speed > 0.2f) {
+				speed -= 0.1f;
+			}
+		} else {
+			if (speed < 1.5f) {
+				speed += 0.1f;
+			}
+		}
+	}
+
+	// Set the boolean indicator isClicked to true when a click occurs
+	public void mouseClicked() {
+		isClicked = true;
+	}
+
+	public void drawBackGround() {
+		dataBackGround.beginDraw();
+		dataBackGround.background(255, 250, 205);
+		dataBackGround.endDraw();
+	}
+
+	public void drawTopView() {
+		topView.beginDraw();
+
+		topView.background(0, 130, 0);
+		topView.rect(panelHeight / 10, height - panelHeight + panelHeight / 10,
+				8 * panelHeight / 10, 8 * panelHeight / 10);
+
+		float ballPanelWidth = map(2 * sphereRadius, 0, boxLength, 0,
+				8 * panelHeight / 10);
+		float ballPanelX = map(mover.getX(), -boxLength / 2, boxLength / 2, 0,
+				8 * panelHeight / 10);
+		float ballPanelY = map(mover.getZ(), -boxLength / 2, boxLength / 2, 0,
+				8 * panelHeight / 10);
+		topView.fill(139, 10, 90);
+		topView.ellipse(ballPanelX, ballPanelY, ballPanelWidth, ballPanelWidth);
+
+		for (PVector t : beers) {
+			float cylinderPanelX = map(t.x, -boxLength / 2, boxLength / 2, 0,
+					8 * panelHeight / 10); // MODIF : CYLINDER -> TREE
+			float cylinderPanelY = map(t.y, -boxLength / 2, boxLength / 2, 0,
+					8 * panelHeight / 10);
+			float cylinderPanelBaseSize = map(2 * beerBaseSize, 0, boxLength,
+					0, 8 * panelHeight / 10);
+			topView.fill(139, 69, 19);
+			topView.ellipse(cylinderPanelX, cylinderPanelY,
+					cylinderPanelBaseSize, cylinderPanelBaseSize);
+		}
+
+		topView.endDraw();
+	}
+
+	public void drawScoreBoard() {
+		scoreboard.beginDraw();
+
+		scoreboard.background(141, 182, 205);
+		scoreboard.rect(panelHeight, height - panelHeight + panelHeight / 10,
+				8 * panelHeight / 10, 8 * panelHeight / 10);
+
+		scoreboard.textSize(7);
+		scoreboard.fill(139, 10, 90);
+		// Total Score
+		scoreboard.text("Total Score :" + mover.getScore(),
+				8 * panelHeight / 200, 8 * panelHeight / 50);
+		// Current velocity magnitude
+		scoreboard.text("Velocity: " + mover.getVelocityMagnitude(),
+				8 * panelHeight / 200, 2.5f * 8 * panelHeight / 50);
+		// Points achieved in the last hitting event
+		scoreboard.text("Last score: " + mover.getLastScore(),
+				8 * panelHeight / 200, 4 * 8 * panelHeight / 50);
+
+		scoreboard.endDraw();
+	}
+
+	// This class represents a cylinder
+	class Cylinder {
+
+		// Cylinder attributes:
+		// Parameters:
+		int cylinderBaseSize;
+		int cylinderHeight;
+		int cylinderResolution;
+
+		// The 3 faces of the closed cylinder:
+		PShape openCylinder;
+		PShape topFace;
+		PShape bottomFace;
+
+		// Constructor for a new Cylinder:
+		Cylinder(int cylinderBaseSize, int cylinderHeight,
+				int cylinderResolution) {
+			this.cylinderBaseSize = cylinderBaseSize;
+			this.cylinderHeight = cylinderHeight;
+			this.cylinderResolution = cylinderResolution;
+			openCylinder = new PShape();
+			topFace = new PShape();
+			bottomFace = new PShape();
+
+			float angle;
+			float[] x = new float[cylinderResolution + 1];
+			float[] y = new float[cylinderResolution + 1];
+
+			// get the x and y position on a circle for all the sides
+			for (int i = 0; i < x.length; i++) {
+				angle = (TWO_PI / cylinderResolution) * i;
+				x[i] = sin(angle) * cylinderBaseSize;
+				y[i] = cos(angle) * cylinderBaseSize;
+			}
+
+			stroke(0);
+			fill(139, 69, 19);
+			// Open Cylinder:
+			openCylinder = createShape();
+			openCylinder.beginShape(QUAD_STRIP);
+			// draw the border of the cylinder
+			for (int i = 0; i < x.length; i++) {
+				openCylinder.vertex(x[i], y[i], 0);
+				openCylinder.vertex(x[i], y[i], cylinderHeight);
+			}
+			openCylinder.endShape();
+
+			stroke(0);
+			fill(238, 197, 145);
+			// Top Face:
+			topFace = createShape();
+			topFace.beginShape(TRIANGLES);
+			// draw the topFace of the closed cylinder
+			for (int i = 0; i < x.length - 1; i++) {
+				topFace.vertex(x[i], y[i], cylinderHeight);
+				topFace.vertex(x[i + 1], y[i + 1], cylinderHeight);
+				topFace.vertex(0, 0, cylinderHeight);
+			}
+			topFace.endShape();
+
+			noStroke();
+			fill(139, 69, 19);
+			// Bottom Face
+			bottomFace = createShape();
+			bottomFace.beginShape(TRIANGLES);
+			// draw the bottomFace of the closed cylinder
+			for (int i = 0; i < x.length - 1; i++) {
+				bottomFace.vertex(x[i], y[i], 0);
+				bottomFace.vertex(x[i + 1], y[i + 1], 0);
+				bottomFace.vertex(0, 0, 0);
+			}
+			bottomFace.endShape();
+
+		}
+
+		public void display(float x, float y, int boxDepth) {
+			pushMatrix();
+			// rotate the cylinder to obtain view from the top
+			rotateX(PI / 2);
+			// follow the mouse
+			translate(x, y, boxDepth / 2);
+			// display the shapes
+			shape(openCylinder);
+			shape(topFace);
+			shape(bottomFace);
+			popMatrix();
+		}
+
+	}
+
+	// This class represents a mover for the Ball
+	class Mover {
+
+		// Mover attributes:
+		// Ball attributes:
+		PVector location;
+		PVector velocity;
+		int sphereRadius;
+
+		// Forces & parameters:
+		PVector gravity;
+		PVector friction;
+		PVector totalForce;
+		float g = 0.581f;
+		float normalForce;
+		float mu;
+		float frictionMagnitude;
+		float elasticity;
+
+		// Score parameters:
+		float score;
+		float lastScore;
+
+		// Constructor for a new Mover
+		Mover(int boxDepth, int sphereRadius) {
+			location = new PVector(0, -(boxDepth / 2 + sphereRadius), 0);
+			velocity = new PVector(0, 0, 0);
+			this.sphereRadius = sphereRadius;
+			gravity = new PVector(0, 0, 0);
+			totalForce = new PVector(0, 0, 0);
+			normalForce = 1;
+			mu = 0.01f;
+			frictionMagnitude = normalForce * mu;
+			elasticity = 0.8f;
+			
+			score = 0.0f;
+			lastScore = 0.0f;
+		}
+
+		// Getter for x coordinate
+		public float getX() {
+			return location.x;
+		}
+
+		// Getter for z coordinate
+		public float getZ() {
+			return location.z;
+		}
+
+		// Getter for X velocity
+		public float getVelocityX() {
+			return velocity.x;
+		}
+
+		// Getter for Z velocity
+		public float getVelocityZ() {
+			return velocity.z;
+		}
+
+		// Getter for the velocity magnitude
+		public float getVelocityMagnitude() {
+			return velocity.mag();
+		}
+
+		// Getter for current total score
+		public float getScore() {
+			return score;
+		}
+
+		// Getter for last score (last hitting event)
+		public float getLastScore() {
+			return lastScore;
+		}
+
+		// Update the velocity & location according to the total force exerted
+		// on the ball
+		public void update(float x, float z) {
+			updateForces(x, z);
+			velocity.add(totalForce);
+			location.add(velocity);
+		}
+
+		// Update the forces according to the plate position
+		public void updateForces(float x, float z) {
+			gravity.x = sin(z) * g;
+			gravity.z = sin(-x) * g;
+			friction = velocity.get();
+			friction.mult(-1);
+			friction.normalize();
+			friction.mult(frictionMagnitude);
+			totalForce = friction.get();
+			totalForce.add(gravity);
+		}
+
+		// Display the ball on the plate
+		public void display() {
+			pushMatrix();
+			noStroke();
+			fill(139, 10, 80);
+			sphere(sphereRadius);
+			popMatrix();
+		}
+
+		// Check if the ball is on the edges of the plate
+		public void checkEdges(int boxLength) {
+			if (location.x >= (boxLength / 2.0f)) {
+				lastScore = -velocity.mag();
+				score -= velocity.mag();
+				if (score < 0.0f) {
+					score = 0.0f;
+				}
+				velocity.x = velocity.x * -elasticity;
+				location.x = (boxLength / 2.0f);
+			} else if (location.x <= -(boxLength / 2.0f)) {
+				lastScore = -velocity.mag();
+				score -= velocity.mag();
+				if (score < 0.0f) {
+					score = 0.0f;
+				}
+				velocity.x = velocity.x * (-elasticity);
+				location.x = -(boxLength / 2.0f);
+			}
+			if (location.z >= (boxLength / 2.0f)) {
+				lastScore = -velocity.mag();
+				score -= velocity.mag();
+				if (score < 0.0f) {
+					score = 0.0f;
+				}
+				velocity.z = velocity.z * (-elasticity);
+				location.z = (boxLength / 2.0f);
+			} else if (location.z <= -(boxLength / 2.0f)) {
+				lastScore = -velocity.mag();
+				score -= velocity.mag();
+				if (score < 0.0f) {
+					score = 0.0f;
+				}
+				velocity.z = velocity.z * (-elasticity);
+				location.z = -(boxLength / 2.0f);
+			}
+		}
+
+		// Check if the ball hits a cylinder
+		public void checkCylinderCollision(ArrayList<PVector> a,
+				int cylinderBaseSize, int boxDepth) {
+			for (PVector c : a) {
+				// Create a new cylinder vector adapted to the location
+				PVector correctedC = new PVector(c.x, location.y, c.y);
+				if (correctedC.dist(location) <= (sphereRadius + cylinderBaseSize)) {
+					// Increment the score by current velocity & save the last
+					// score (last hitting event)
+					lastScore = velocity.mag();
+					score += velocity.mag();
+					// Compute the normal vector
+					PVector normal = correctedC.get();
+					normal.sub(location);
+					normal.normalize();
+					// Compute the new correct location
+					PVector updatedLocation = normal.get();
+					updatedLocation.mult(-(cylinderBaseSize + sphereRadius));
+					updatedLocation.add(correctedC);
+					location = new PVector(updatedLocation.x,
+							-(boxDepth / 2 + sphereRadius), updatedLocation.z); // to
+																				// avoid
+																				// enter
+																				// the
+																				// cylinder
+																				// we
+																				// update
+																				// the
+																				// location
+					// Update the velocity
+					normal.mult(2 * velocity.dot(normal));
+					velocity.sub(normal);
+					velocity.mult(elasticity);
+				}
+			}
+		}
+
+	}
+
+	static public void main(String[] passedArgs) {
+		String[] appletArgs = new String[] { "--full-screen",
+				"--bgcolor=#666666", "--stop-color=#cccccc", "Game" };
+		if (passedArgs != null) {
+			PApplet.main(concat(appletArgs, passedArgs));
+		} else {
+			PApplet.main(appletArgs);
+		}
+	}
+}

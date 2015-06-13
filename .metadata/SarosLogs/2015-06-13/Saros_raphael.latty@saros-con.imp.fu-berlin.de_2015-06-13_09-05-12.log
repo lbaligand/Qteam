@@ -78,3 +78,6 @@ java.net.SocketTimeoutException: Read timed out
 	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
 	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
 DEBUG 2015-06-13 10:02:31,254 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+WARN  2015-06-13 13:07:34,573 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-13 13:07:34,620 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-06-13 13:07:34,948 (UPnPServiceImpl.java:295) deleting existing port mappings

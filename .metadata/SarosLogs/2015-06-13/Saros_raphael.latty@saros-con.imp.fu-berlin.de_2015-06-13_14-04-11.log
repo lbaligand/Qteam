@@ -1,0 +1,52 @@
+INFO  2015-06-13 14:03:34,918 (Saros.java:256) Starting Saros 13.12.6 running:
+  Java Version: 1.7.0_40
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.9.0.v20130326-1255
+  Operating System: Windows 8 (6.2)
+  Hardware Architecture: amd64
+INFO  2015-06-13 14:03:35,121 (XMPPAccountStore.java:103) loaded 3 accounts
+INFO  2015-06-13 14:03:35,215 (PreferenceInitializer.java:53) initializing preference default values
+DEBUG 2015-06-13 14:03:35,293 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@3966bdb6, de.fu_berlin.inf.dpp.net.internal.IBBTransport@831152b]
+DEBUG 2015-06-13 14:03:35,527 (StreamServiceManager.java:225) StreamServices added:
+  SendFile
+  AudioService
+  VideoSharing
+DEBUG 2015-06-13 14:03:35,777 (SarosAnnotation.java:112) resetting annotation colors
+WARN  2015-06-13 14:03:36,824 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-13 14:03:36,902 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-06-13 14:03:46,466 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+WARN  2015-06-13 14:03:56,015 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-13 14:03:56,046 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-06-13 14:04:04,360 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2015-06-13 14:04:04,735 (DocumentRecord.java:93) Added Node: attr(143419704470316904) name=svg
+DEBUG 2015-06-13 14:04:07,251 (SarosNet.java:423) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2015-06-13 14:04:07,485 (SarosNet.java:433) found interface addresses: [192.168.56.1, 128.179.156.201, fe80:0:0:0:ddd1:fc27:b358:fb10%4, fe80:0:0:0:1f1:8fa8:17e0:8274%9]
+DEBUG 2015-06-13 14:04:07,672 (SarosNet.java:383)  new connection state == CONNECTING
+DEBUG 2015-06-13 14:04:11,782 (SarosNet.java:383) raphael.latty@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2015-06-13 14:04:11,782 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@3966bdb6, de.fu_berlin.inf.dpp.net.internal.IBBTransport@831152b]
+DEBUG 2015-06-13 14:04:11,782 (SkypeManager.java:286) Refreshing Skype username cache...
+WARN  2015-06-13 14:04:17,862 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.201:0
+WARN  2015-06-13 14:04:17,862 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0
+WARN  2015-06-13 16:46:01,208 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-13 16:46:01,250 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-06-13 16:46:01,903 (SarosNet.java:383) raphael.latty@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+WARN  2015-06-13 16:46:01,905 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@5bd545a7, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2015-06-13 16:46:02,145 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+WARN  2015-06-13 16:46:02,146 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@61b65978, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2015-06-13 16:46:02,152 (UPnPServiceImpl.java:295) deleting existing port mappings

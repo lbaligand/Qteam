@@ -52,3 +52,5 @@ java.net.SocketTimeoutException: Read timed out
 	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
 	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
 	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+WARN  2015-06-13 13:07:34,573 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-13 13:07:34,620 (NullSarosSession.java:64) unexpected method call
