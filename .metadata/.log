@@ -3078,3 +3078,1872 @@ java.net.SocketException: Software caused connection abort: recv failed
 	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
 	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
 	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-19 11:58:02.781
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-19 11:58:02.828
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2015-05-26 08:09:03.864 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 08:09:51.637
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 08:09:51.684
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 08:10:28.967
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 08:10:28.983
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-26 08:10:30.577
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-26 08:10:30.592
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 08:10:50.957
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.154.226:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 08:10:50.962
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-26 09:54:28.423
+!MESSAGE XMPP connection error:  (SarosNet.java:95)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-05-26 09:54:29.058
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 10:39:48.921
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-05-26 10:39:48.921
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2015-06-10 08:43:01.720 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 08:44:06.447
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 08:44:06.483
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 08:44:30.264
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 08:44:30.311
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-10 08:44:32.220
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-10 08:44:32.231
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 08:44:56.246
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 08:44:56.256
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.201:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 08:45:22.115
+!MESSAGE Service Discovery failed on recipient theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros server: saros-con.imp.fu-berlin.de (DiscoveryManager.java:445)
+!STACK 0
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:554)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:512)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.performServiceDiscovery(DiscoveryManager.java:442)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.queryFeatureSupport(DiscoveryManager.java:379)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.access$3(DiscoveryManager.java:346)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager$2.run(DiscoveryManager.java:325)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 08:45:52.126
+!MESSAGE Service Discovery failed on recipient theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros server: saros-con.imp.fu-berlin.de (DiscoveryManager.java:445)
+!STACK 0
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:554)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:512)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.performServiceDiscovery(DiscoveryManager.java:442)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.queryFeatureSupport(DiscoveryManager.java:379)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.access$3(DiscoveryManager.java:346)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager$2.run(DiscoveryManager.java:325)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 08:46:22.137
+!MESSAGE Service Discovery failed on recipient theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros server: saros-con.imp.fu-berlin.de (DiscoveryManager.java:445)
+!STACK 0
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:554)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:512)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.performServiceDiscovery(DiscoveryManager.java:442)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.queryFeatureSupport(DiscoveryManager.java:379)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.access$3(DiscoveryManager.java:346)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager$2.run(DiscoveryManager.java:325)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 09:24:20.534
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 09:24:24.626
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 09:24:46.306
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 09:24:50.501
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:48.892
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:48.942
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.042
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.050
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.056
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.118
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.124
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.129
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.135
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.140
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.145
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.151
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.157
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.163
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.168
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.173
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.179
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.184
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.189
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.194
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.199
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.206
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.211
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.217
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.222
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.227
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.232
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.237
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.242
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.247
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.252
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.257
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.262
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.268
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.273
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.278
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 10:08:49.283
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 11:54:39.295
+!MESSAGE NoOp Text edit: new '' old '' (TextEditActivity.java:187)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 12:10:37.143
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@37fa1550: Bottom == 0 < Top == 556 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 12:10:37.148
+!MESSAGE Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@37fa1550: Bottom == 0 < Top == 576 (EditorAPI.java:758)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:22:08.219
+!MESSAGE XMPP connection error:  (SarosNet.java:95)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:22:08.699
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:22:19.729
+!MESSAGE failed to send ping to: louis (ServerSessionTimeoutHandler.java:115)
+!STACK 0
+java.io.IOException: not connected to a XMPP server
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:203)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:104)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:02.520
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [753,0], operation: Insert(0,'\r\n',0), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [753,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:03.583
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [754,0], operation: Insert(0,'\u00E2',0), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [754,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:04.177
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [755,0], operation: Delete(0,'\u00E2'), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [755,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:04.411
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [756,0], operation: Insert(0,'p',0), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [756,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:04.489
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [757,0], operation: Insert(1,'a',1), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [757,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:04.630
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [758,0], operation: Insert(2,'c',2), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [758,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:04.724
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [759,0], operation: Insert(3,'k',3), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [759,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:04.817
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [760,0], operation: Insert(4,'a',4), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [760,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:04.974
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [761,0], operation: Insert(5,'g',5), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [761,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:05.052
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [762,0], operation: Insert(6,'e',6), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [762,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:05.474
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [763,0], operation: Insert(7,' ',7), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [763,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:05.755
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [764,0], operation: Insert(8,'c',8), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [764,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:05.911
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [765,0], operation: Insert(9,'s',9), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [765,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:06.114
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [766,0], operation: Insert(10,'2',10), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [766,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:06.411
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [767,0], operation: Insert(11,'1',11), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [767,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:06.568
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [768,0], operation: Insert(12,'1',12), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [768,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:07.474
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [769,0], operation: Insert(13,'\r\n',13), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [769,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:07.990
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [770,0], operation: Delete(13,'\r\n'), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [770,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:08.646
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [771,0], operation: Insert(13,';',13), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [771,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 13:28:08.849
+!MESSAGE Error during transformation of: JupiterActivity(timestamp: [772,0], operation: Insert(14,'\r\n',14), source: raphael.latty) (ConcurrentDocumentServer.java:154)
+!STACK 0
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [772,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:15:00.807
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:15:00.838
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:15:00.901
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:15:04.745
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:18:47.534
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:18:47.565
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:18:47.612
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:18:50.237
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:40:47.624
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:40:47.655
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:40:47.702
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 14:40:49.937
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:02:04.127
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:02:04.158
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:02:04.252
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:02:04.268
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:02:04.283
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:02:55.470
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:02:55.564
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:03:00.550
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:03:02.519
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:03:02.535
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:03:02.878
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:03:04.988
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:04:41.173
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:04:41.189
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:04:57.706
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:05:34.023
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:00.919
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:00.935
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:01.013
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:17.203
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1 (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:42.722
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:42.722
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:42.987
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:46.332
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:48.316
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:48.316
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:06:48.597
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:09:16.435
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:09:16.466
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:09:16.732
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:09:26.999
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:14:13.533
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:14:13.533
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.201:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:15:04.015
+!MESSAGE Inv[unkown user]: Received invitation cancel message (CancelProjectSharingHandler.java:76)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:15:06.687
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:15:06.703
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:15:06.765
+!MESSAGE could not leave or destroy room: SAROS579274381@conference.saros-con.imp.fu-berlin.de (MultiUserChat.java:225)
+!STACK 0
+java.lang.IllegalStateException: Not connected to server.
+	at org.jivesoftware.smack.XMPPConnection.sendPacket(XMPPConnection.java:491)
+	at org.jivesoftware.smackx.muc.MultiUserChat.destroy(MultiUserChat.java:708)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat.disconnect(MultiUserChat.java:221)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChatService.destroyChat(MultiUserChatService.java:161)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatRoomsComposite$3$3.run(ChatRoomsComposite.java:191)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:15:10.578
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:15:10.578
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:15:16.860
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:15:16.860
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:15:16.891
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@94713c2b (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 16:15:18.829
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:15:19.407
+!MESSAGE [SOCKS5] Received response connection without a running connect (Socks5Transport.java:338)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 16:15:23.080
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 16:16:50.146
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2015-06-10 16:16:54.371
+!MESSAGE [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened. (Socks5Transport.java:352)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:20:12.840
+!MESSAGE Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@94713c2b (EditorAPI.java:372)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:08.955
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:08.971
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:11.378
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:11.424
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:26.692
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:26.692
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:37.084
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:37.084
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:41.756
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:41.787
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:42.928
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:42.928
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:50.992
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:51.007
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:57.586
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:21:57.602
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:22:00.845
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:22:00.876
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:22:01.345
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:22:01.360
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:22:04.642
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:22:04.658
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:22:14.096
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:22:14.096
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:22:15.612
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:22:15.612
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:31.886
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:31.902
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:33.105
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:33.120
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:36.076
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:36.092
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:36.873
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:36.889
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:38.061
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:38.077
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:46.444
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:46.460
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:53.070
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:23:53.070
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:27:26.014
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:27:26.029
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:27:28.889
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:27:28.920
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:30:00.344
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:30:00.375
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:32:50.160
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:32:50.176
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:32:51.895
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:32:51.895
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:32:54.926
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:32:54.942
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:07.943
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:07.943
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:19.304
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:19.304
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:20.382
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:20.398
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:25.930
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:25.930
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:40.134
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:40.134
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:44.010
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:33:44.026
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:34:02.996
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:34:03.012
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:34:09.901
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:34:09.917
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:34:17.693
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:34:17.693
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:31.301
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:31.316
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:31.410
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:31.410
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:31.473
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:31.473
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:40.240
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:40.240
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:40.302
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:40.318
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:42.365
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:36:42.365
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:41:09.676
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:41:09.692
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:41:20.927
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:41:20.943
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:41:43.410
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:41:43.410
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:42:14.460
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:42:14.507
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:42:18.399
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:42:18.415
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:42:21.665
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:42:21.665
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:46:07.216
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:46:07.226
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:46:10.008
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:46:10.019
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:46:20.904
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:46:20.914
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:47:07.769
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:47:07.779
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:47:11.808
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:47:11.818
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:47:35.536
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:47:35.568
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:47:37.427
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:47:37.443
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:48:03.086
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:48:03.102
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:48:04.680
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:48:04.696
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:50:29.606
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:50:29.618
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:51:34.032
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:51:34.048
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:51:38.595
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:51:38.595
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:51:45.580
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:51:45.627
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:54:47.006
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 16:54:47.022
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:03:40.534
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:03:40.596
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:03:47.659
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:03:47.659
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:03:55.191
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:03:55.223
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:04:31.477
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:04:31.492
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:04:37.712
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:04:37.727
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:04:43.884
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:04:43.900
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:04:50.197
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:04:50.213
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:05:28.280
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:05:28.295
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:05:36.562
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:05:36.655
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:11.284
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:11.300
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:18.910
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:18.910
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:37.256
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:37.271
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:42.381
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:42.393
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:45.143
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:45.143
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:54.519
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:06:54.535
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:09.709
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:09.724
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:10.677
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:10.677
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:13.678
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:13.693
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:21.866
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:21.866
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:35.180
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:35.180
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:47.479
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:07:47.479
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:08:02.855
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:08:02.871
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:08:04.293
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:08:04.309
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:09:24.681
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:09:24.696
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:09:37.417
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:09:37.433
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:10:06.436
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:10:06.467
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:10:14.468
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:10:14.468
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:10:56.825
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:10:56.841
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:11:04.576
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:11:04.591
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:11:40.909
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:11:40.924
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:13:54.383
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:13:54.383
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:14:00.274
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:14:00.274
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:14:07.369
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:14:07.369
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:14:18.573
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:14:18.573
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:14:58.862
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:14:58.877
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:15:04.769
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:15:04.784
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:06.916
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:06.932
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:12.698
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:12.714
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:18.933
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:18.949
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:20.605
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:20.621
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:32.935
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:32.950
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:34.388
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:34.388
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:56.078
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:56.094
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:57.719
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:16:57.734
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:17:17.752
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:17:17.768
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:17:23.722
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:17:23.753
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:17:32.707
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:17:32.723
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:17:34.973
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:17:34.988
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:18:58.998
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:18:59.045
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:19:01.311
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:19:01.327
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:19:03.389
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:19:03.405
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:19:03.952
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:19:03.968
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:19:22.267
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:19:22.314
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:19:32.737
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:19:32.753
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:32.775
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:32.790
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:34.072
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:34.072
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:34.603
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:34.619
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:34.634
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:34.634
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:34.681
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:34.697
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:34.728
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:34.728
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:35.244
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:35.259
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:35.322
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-10 17:20:35.384
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2015-06-12 19:01:12.280 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-12 19:01:39.341
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-12 19:01:39.457
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-12 19:02:03.772
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-12 19:02:03.815
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-12 19:02:05.827
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-12 19:02:05.831
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-12 19:02:32.702
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-12 19:02:32.707
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.1.8:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-12 21:14:17.974
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-12 21:14:18.026
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-12 21:14:19.039
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@1e20e249, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-12 21:14:19.237
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@cc12a26, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-06-13 09:04:19.309 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-13 09:04:43.968
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-13 09:04:44.046
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-13 09:05:00.183
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-13 09:05:00.230
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-13 09:05:01.871
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-13 09:05:01.886
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rafilatty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-13 09:05:19.373
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.201:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-06-13 09:05:19.373
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0 (StunServiceImpl.java:420)

@@ -10,7 +10,7 @@ public class HoughTransform extends PApplet {
 	PImage img;
 
 	public void setup() {
-		//size(640, 480);
+		size(640, 480);
 		String[] cameras = Capture.list();
 		if (cameras.length == 0) {
 			println("There are no cameras available for capture.");

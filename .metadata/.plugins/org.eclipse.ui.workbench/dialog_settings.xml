@@ -4,6 +4,7 @@
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\rafilatty\Documents\EPFL Bachelor 2 SYSCOM\Semestre 2\GitHub\Qteam\Game\application.windows64\source"/>
 			<item value="C:\Users\rafilatty\Documents\EPFL Bachelor 2 SYSCOM\Semestre 2\Intro. Info. Visuelle\processing-2.2.1\core\library"/>
 		</list>
 	</section>
@@ -26,6 +27,7 @@
 	<section name="NewWizardAction">
 		<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
 		</list>
 	</section>
 	<section name="ShowViewDialog">

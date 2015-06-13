@@ -1,0 +1,840 @@
+WARN  2015-06-10 08:44:06,428 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 08:44:06,481 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 08:44:30,261 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 08:44:30,308 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 08:44:56,244 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0
+WARN  2015-06-10 08:44:56,244 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.201:0
+WARN  2015-06-10 08:45:22,075 (DiscoveryManager.java:445) Service Discovery failed on recipient theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros server: saros-con.imp.fu-berlin.de
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:554)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:512)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.performServiceDiscovery(DiscoveryManager.java:442)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.queryFeatureSupport(DiscoveryManager.java:379)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.access$3(DiscoveryManager.java:346)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager$2.run(DiscoveryManager.java:325)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-06-10 08:45:52,124 (DiscoveryManager.java:445) Service Discovery failed on recipient theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros server: saros-con.imp.fu-berlin.de
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:554)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:512)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.performServiceDiscovery(DiscoveryManager.java:442)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.queryFeatureSupport(DiscoveryManager.java:379)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.access$3(DiscoveryManager.java:346)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager$2.run(DiscoveryManager.java:325)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-06-10 08:46:22,135 (DiscoveryManager.java:445) Service Discovery failed on recipient theophile.de.cazenove@saros-con.imp.fu-berlin.de/Saros server: saros-con.imp.fu-berlin.de
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:554)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:512)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.performServiceDiscovery(DiscoveryManager.java:442)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.queryFeatureSupport(DiscoveryManager.java:379)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager.access$3(DiscoveryManager.java:346)
+	at de.fu_berlin.inf.dpp.net.discoverymanager.DiscoveryManager$2.run(DiscoveryManager.java:325)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 09:24:20,533 (Socks5Transport.java:352) [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened.
+ERROR 2015-06-10 09:24:24,625 (Socks5Transport.java:352) [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened.
+ERROR 2015-06-10 09:24:46,306 (Socks5Transport.java:352) [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened.
+ERROR 2015-06-10 09:24:50,501 (Socks5Transport.java:352) [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened.
+WARN  2015-06-10 10:08:48,891 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:48,941 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,041 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,049 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,055 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,117 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,123 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,128 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,134 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,139 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,145 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,150 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,156 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,161 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,167 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,173 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,177 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,183 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,188 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,193 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,198 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,205 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,210 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,216 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,221 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,226 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,231 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,236 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,241 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,246 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,251 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,256 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,261 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,267 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,272 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,277 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 10:08:49,282 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@4a1e9159: Bottom == 0 < Top == 309
+WARN  2015-06-10 11:54:39,295 (TextEditActivity.java:187) NoOp Text edit: new '' old ''
+WARN  2015-06-10 12:10:37,142 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@37fa1550: Bottom == 0 < Top == 556
+WARN  2015-06-10 12:10:37,148 (EditorAPI.java:758) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@37fa1550: Bottom == 0 < Top == 576
+ERROR 2015-06-10 13:22:08,217 (SarosNet.java:95) XMPP connection error: 
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+ERROR 2015-06-10 13:22:08,699 (SarosNet.java:385)  new connection state == ERROR
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+ERROR 2015-06-10 13:22:19,729 (ServerSessionTimeoutHandler.java:115) failed to send ping to: louis
+java.io.IOException: not connected to a XMPP server
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:203)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToSessionUser(XMPPTransmitter.java:91)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:104)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:02,520 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [753,0], operation: Insert(0,'\r\n',0), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [753,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:03,583 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [754,0], operation: Insert(0,'\u00E2',0), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [754,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:04,177 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [755,0], operation: Delete(0,'\u00E2'), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [755,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:04,411 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [756,0], operation: Insert(0,'p',0), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [756,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:04,489 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [757,0], operation: Insert(1,'a',1), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [757,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:04,630 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [758,0], operation: Insert(2,'c',2), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [758,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:04,708 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [759,0], operation: Insert(3,'k',3), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [759,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:04,817 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [760,0], operation: Insert(4,'a',4), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [760,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:04,974 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [761,0], operation: Insert(5,'g',5), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [761,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:05,052 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [762,0], operation: Insert(6,'e',6), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [762,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:05,474 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [763,0], operation: Insert(7,' ',7), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [763,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:05,755 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [764,0], operation: Insert(8,'c',8), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [764,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:05,911 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [765,0], operation: Insert(9,'s',9), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [765,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:06,114 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [766,0], operation: Insert(10,'2',10), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [766,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:06,411 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [767,0], operation: Insert(11,'1',11), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [767,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:06,552 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [768,0], operation: Insert(12,'1',12), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [768,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:07,474 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [769,0], operation: Insert(13,'\r\n',13), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [769,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:07,990 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [770,0], operation: Delete(13,'\r\n'), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [770,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:08,646 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [771,0], operation: Insert(13,';',13), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [771,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2015-06-10 13:28:08,849 (ConcurrentDocumentServer.java:154) Error during transformation of: JupiterActivity(timestamp: [772,0], operation: Insert(14,'\r\n',14), source: raphael.latty)
+de.fu_berlin.inf.dpp.concurrent.jupiter.TransformationException: Precondition #3 violated (Vector time does not match): [772,0] , [0,0]
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.checkPreconditions(Jupiter.java:315)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.Jupiter.receiveJupiterActivity(Jupiter.java:180)
+	at de.fu_berlin.inf.dpp.concurrent.jupiter.internal.JupiterDocumentServer.transformJupiterActivity(JupiterDocumentServer.java:73)
+	at de.fu_berlin.inf.dpp.concurrent.management.JupiterServer.transform(JupiterServer.java:107)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.receive(ConcurrentDocumentServer.java:152)
+	at de.fu_berlin.inf.dpp.concurrent.management.ConcurrentDocumentServer.transformIncoming(ConcurrentDocumentServer.java:129)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.directServerActivities(ActivityHandler.java:418)
+	at de.fu_berlin.inf.dpp.project.internal.ActivityHandler.handleIncomingActivities(ActivityHandler.java:148)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.exec(SarosSession.java:723)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$3.run(ActivitySequencer.java:405)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-06-10 14:15:00,807 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 14:15:00,838 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 14:15:00,901 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 14:15:04,745 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 14:18:47,534 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 14:18:47,565 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 14:18:47,612 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 14:18:50,237 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 14:40:47,608 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 14:40:47,655 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 14:40:47,702 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 14:40:49,937 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:02:04,127 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 16:02:04,158 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 16:02:04,252 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 16:02:04,268 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 16:02:04,283 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 16:02:55,470 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:02:55,564 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:03:00,550 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:03:02,519 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:03:02,535 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:03:02,878 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:03:04,988 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:04:41,173 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:04:41,189 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:04:57,691 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:05:34,007 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:06:00,919 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 16:06:00,935 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 16:06:01,013 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 16:06:17,203 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@4dea19b1
+WARN  2015-06-10 16:06:42,722 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:06:42,722 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:06:42,987 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:06:46,332 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:06:48,316 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:06:48,316 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:06:48,597 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:09:16,435 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:09:16,466 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:09:16,716 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:09:26,999 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@369532ad
+WARN  2015-06-10 16:14:13,533 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /192.168.56.1:0
+WARN  2015-06-10 16:14:13,533 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /128.179.156.201:0
+WARN  2015-06-10 16:15:04,015 (CancelProjectSharingHandler.java:76) Inv[unkown user]: Received invitation cancel message
+WARN  2015-06-10 16:15:06,687 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:15:06,703 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:15:06,765 (MultiUserChat.java:225) could not leave or destroy room: SAROS579274381@conference.saros-con.imp.fu-berlin.de
+java.lang.IllegalStateException: Not connected to server.
+	at org.jivesoftware.smack.XMPPConnection.sendPacket(XMPPConnection.java:491)
+	at org.jivesoftware.smackx.muc.MultiUserChat.destroy(MultiUserChat.java:708)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat.disconnect(MultiUserChat.java:221)
+	at de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChatService.destroyChat(MultiUserChatService.java:161)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatRoomsComposite$3$3.run(ChatRoomsComposite.java:191)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+WARN  2015-06-10 16:15:10,562 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:15:10,578 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:15:16,860 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:15:16,860 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:15:16,891 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@94713c2b
+ERROR 2015-06-10 16:15:18,829 (Socks5Transport.java:352) [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened.
+WARN  2015-06-10 16:15:19,407 (Socks5Transport.java:338) [SOCKS5] Received response connection without a running connect
+ERROR 2015-06-10 16:15:23,080 (Socks5Transport.java:352) [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened.
+ERROR 2015-06-10 16:16:50,145 (Socks5Transport.java:352) [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened.
+ERROR 2015-06-10 16:16:54,371 (Socks5Transport.java:352) [SOCKS5] Wrapping bidirectional stream timed out in Request! Shouldn't have happened.
+WARN  2015-06-10 16:20:12,840 (EditorAPI.java:372) Could not get resource from IEditorInput org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput@94713c2b
+WARN  2015-06-10 16:21:08,955 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:08,955 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:11,378 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:11,424 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:26,692 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:26,692 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:37,084 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:37,084 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:41,756 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:41,787 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:42,928 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:42,928 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:50,992 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:51,007 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:57,586 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:21:57,602 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:22:00,845 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:22:00,876 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:22:01,345 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:22:01,345 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:22:04,642 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:22:04,658 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:22:14,081 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:22:14,096 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:22:15,612 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:22:15,612 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:31,886 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:31,902 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:33,105 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:33,120 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:36,076 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:36,092 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:36,873 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:36,889 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:38,061 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:38,077 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:46,444 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:46,460 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:53,070 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:23:53,070 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:27:26,014 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:27:26,029 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:27:28,889 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:27:28,920 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:30:00,344 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:30:00,375 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:32:50,160 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:32:50,176 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:32:51,895 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:32:51,895 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:32:54,926 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:32:54,926 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:07,943 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:07,943 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:19,304 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:19,304 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:20,382 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:20,398 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:25,930 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:25,930 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:40,134 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:40,134 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:44,010 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:33:44,026 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:34:02,996 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:34:03,012 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:34:09,901 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:34:09,917 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:34:17,693 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:34:17,693 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:31,301 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:31,316 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:31,394 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:31,410 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:31,473 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:31,473 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:40,240 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:40,240 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:40,302 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:40,318 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:42,365 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:36:42,365 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:41:09,676 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:41:09,692 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:41:20,927 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:41:20,943 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:41:43,410 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:41:43,410 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:42:14,460 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:42:14,507 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:42:18,399 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:42:18,415 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:42:21,649 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:42:21,665 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:46:07,215 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:46:07,225 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:46:10,007 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:46:10,018 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:46:20,903 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:46:20,913 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:47:07,768 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:47:07,778 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:47:11,807 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:47:11,818 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:47:35,536 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:47:35,568 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:47:37,427 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:47:37,443 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:48:03,086 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:48:03,102 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:48:04,680 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:48:04,696 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:50:29,605 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:50:29,617 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:51:34,032 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:51:34,048 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:51:38,595 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:51:38,595 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:51:45,580 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:51:45,611 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:54:47,006 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 16:54:47,022 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:03:40,534 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:03:40,596 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:03:47,659 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:03:47,659 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:03:55,191 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:03:55,223 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:04:31,477 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:04:31,492 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:04:37,712 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:04:37,727 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:04:43,884 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:04:43,900 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:04:50,197 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:04:50,213 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:05:28,280 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:05:28,295 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:05:36,562 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:05:36,655 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:11,284 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:11,300 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:18,910 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:18,910 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:37,256 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:37,271 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:42,381 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:42,393 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:45,143 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:45,143 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:54,519 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:06:54,535 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:09,709 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:09,724 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:10,677 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:10,677 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:13,678 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:13,693 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:21,866 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:21,866 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:35,180 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:35,180 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:47,479 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:07:47,479 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:08:02,855 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:08:02,855 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:08:04,293 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:08:04,309 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:09:24,681 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:09:24,696 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:09:37,417 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:09:37,433 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:10:06,436 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:10:06,467 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:10:14,468 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:10:14,468 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:10:56,825 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:10:56,841 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:11:04,576 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:11:04,576 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:11:40,909 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:11:40,924 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:13:54,368 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:13:54,383 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:14:00,274 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:14:00,274 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:14:07,369 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:14:07,369 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:14:18,573 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:14:18,573 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:14:58,862 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:14:58,877 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:15:04,769 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:15:04,784 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:06,916 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:06,932 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:12,698 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:12,714 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:18,933 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:18,949 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:20,605 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:20,621 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:32,935 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:32,950 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:34,388 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:34,388 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:56,078 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:56,094 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:57,719 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:16:57,734 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:17:17,752 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:17:17,768 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:17:23,722 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:17:23,753 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:17:32,707 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:17:32,707 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:17:34,973 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:17:34,988 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:18:58,998 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:18:59,045 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:19:01,311 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:19:01,327 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:19:03,389 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:19:03,405 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:19:03,952 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:19:03,968 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:19:22,267 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:19:22,314 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:19:32,737 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:19:32,753 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:32,775 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:32,790 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:34,072 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:34,072 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:34,603 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:34,619 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:34,634 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:34,634 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:34,681 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:34,681 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:34,728 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:34,728 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:35,244 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:35,259 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:35,322 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-10 17:20:35,384 (NullSarosSession.java:64) unexpected method call

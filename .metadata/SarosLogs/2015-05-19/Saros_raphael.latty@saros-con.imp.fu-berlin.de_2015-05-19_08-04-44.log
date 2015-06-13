@@ -78,3 +78,6 @@ java.net.SocketException: Software caused connection abort: recv failed
 DEBUG 2015-05-19 09:05:40,445 (SarosNet.java:383)  new connection state == NOT_CONNECTED
 DEBUG 2015-05-19 10:34:28,651 (IconUtils.java:198) color: RGB {255, 255, 255}
 DEBUG 2015-05-19 10:34:28,682 (IconUtils.java:209) create foreground icon with color RGB {0, 0, 0}
+WARN  2015-05-19 11:58:02,781 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-19 11:58:02,813 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-05-19 11:58:10,924 (UPnPServiceImpl.java:295) deleting existing port mappings

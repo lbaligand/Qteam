@@ -52,3 +52,5 @@ java.net.SocketException: Software caused connection abort: recv failed
 	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
 	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
 	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+WARN  2015-05-19 11:58:02,781 (NullSarosSession.java:64) unexpected method call
+WARN  2015-05-19 11:58:02,813 (NullSarosSession.java:64) unexpected method call

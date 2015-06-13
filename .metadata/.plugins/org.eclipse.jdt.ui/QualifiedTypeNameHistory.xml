@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="processing.core.PVector"/>
-<fullyQualifiedTypeName name="cs211.HoughTransform"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="cs211.QuadGraph"/>
 <fullyQualifiedTypeName name="processing.core.PGraphics"/>
+<fullyQualifiedTypeName name="java.awt.color.CMMException"/>
+<fullyQualifiedTypeName name="cs211.HoughTransform"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.Float"/>
+<fullyQualifiedTypeName name="javax.naming.ldap.SortControl"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="tangiblegame.ImageProcessing"/>
+<fullyQualifiedTypeName name="processing.core.PVector"/>
 </qualifiedTypeNameHistroy>
